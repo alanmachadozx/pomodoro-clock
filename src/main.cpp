@@ -8,10 +8,14 @@ int main(){
     while(time > 0){
         
         int minutes = time/60;
-        int value = time - 1;
-        int seconds = value - (minutes * 60);
-        cout << minutes << ":" << seconds << endl; 
+        int seconds = time % 60;
+        cout << minutes << ":"; 
 
+        if(seconds < 10){
+            cout << "0";
+        }
+
+        cout <<seconds<< "\r" << flush;
         this_thread::sleep_for(chrono::seconds(1));
         time = time - 1; 
     }
