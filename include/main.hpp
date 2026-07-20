@@ -1,0 +1,2 @@
+void focus();
+void rest();
