@@ -1,22 +1,29 @@
+#include "../include/main.hpp"
+#include <QCoreApplication>
+#include <QDebug>
+#include <QTime>
 #include <chrono>
 #include <clocale>
 #include <iostream>
+#include <qdatetime.h>
+#include <qobject.h>
+#include <QTimer>
+#include <QDebug>
 #include <string>
 #include <thread>
-#include "../include/main.hpp"
 
 using namespace std;
-int main() {
-    
+int main(int argc, char *argv[]) {
+    QCoreApplication app(argc, argv);
     focus();
     rest();
 }
 
 void focus() {
-  std::setlocale(LC_ALL, "");
-
-  int time = 1500;
-  while (time > 0) {
+    QTimer timer;
+    QObject::connect(&timer, &QTimer::timeout, [](){});
+    int time = 1500;
+    while (time > 0) {
 
     int minutes = time / 60;
     int seconds = time % 60;
@@ -40,11 +47,12 @@ void focus() {
     for (int i = 0; i <= 100; i++) {
       empty_bar += "░";
     }
-    cout << progress_bar << empty_bar << " " << progress << "%" << "\033[K" << "\n";
+    cout << progress_bar << empty_bar << " " << progress << "%" << "\033[K"
+         << "\n";
     cout << "\033[2A" << flush;
     this_thread::sleep_for(chrono::seconds(1));
     time = time - 1;
-  }  
+  }
 }
 
 void rest() {
@@ -54,7 +62,7 @@ void rest() {
     int minutes = time / 60;
     int seconds = time % 60;
     int elapsed_time = 300 - time;
-    int progress = elapsed_time * 100/300;
+    int progress = elapsed_time * 100 / 300;
 
     cout << minutes << ":";
 
@@ -73,7 +81,8 @@ void rest() {
     for (int i = 0; i <= 100; i++) {
       empty_bar += "░";
     }
-    cout << progress_bar << empty_bar << " " << progress << "%" << "\033[K" << "\n";
+    cout << progress_bar << empty_bar << " " << progress << "%" << "\033[K"
+         << "\n";
     cout << "\033[2A" << flush;
     this_thread::sleep_for(chrono::seconds(1));
     time = time - 1;
