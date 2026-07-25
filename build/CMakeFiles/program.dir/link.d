@@ -2,6 +2,7 @@ program: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o \
+  CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o \
   CMakeFiles/program.dir/src/main.cpp.o \
   /usr/lib/libQt6Core.so.6.11.1 \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.so \
@@ -56,6 +57,8 @@ program: \
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o:
+
+CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o:
 
 CMakeFiles/program.dir/src/main.cpp.o:
 

@@ -1,3 +1,5 @@
 /home/alan/Documentos/pomodoro-clock/build/CMakeFiles/program.dir
 /home/alan/Documentos/pomodoro-clock/build/CMakeFiles/edit_cache.dir
 /home/alan/Documentos/pomodoro-clock/build/CMakeFiles/rebuild_cache.dir
+/home/alan/Documentos/pomodoro-clock/build/CMakeFiles/program_autogen_timestamp_deps.dir
+/home/alan/Documentos/pomodoro-clock/build/CMakeFiles/program_autogen.dir

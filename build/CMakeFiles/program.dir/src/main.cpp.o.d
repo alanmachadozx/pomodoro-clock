@@ -2,9 +2,8 @@ CMakeFiles/program.dir/src/main.cpp.o: \
  /home/alan/Documentos/pomodoro-clock/src/main.cpp \
  /usr/include/stdc-predef.h \
  /home/alan/Documentos/pomodoro-clock/src/../include/main.hpp \
- /usr/include/qt6/QtCore/QCoreApplication \
- /usr/include/qt6/QtCore/qcoreapplication.h \
- /usr/include/qt6/QtCore/qglobal.h /usr/include/c++/16/type_traits \
+ /usr/include/qt6/QtCore/qtmetamacros.h /usr/include/qt6/QtCore/qglobal.h \
+ /usr/include/c++/16/type_traits \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -141,6 +140,8 @@ CMakeFiles/program.dir/src/main.cpp.o: \
  /usr/include/qt6/QtCore/qtresource.h \
  /usr/include/qt6/QtCore/qttranslation.h \
  /usr/include/qt6/QtCore/qversiontagging.h \
+ /usr/include/qt6/QtCore/QCoreApplication \
+ /usr/include/qt6/QtCore/qcoreapplication.h \
  /usr/include/qt6/QtCore/qstring.h /usr/include/qt6/QtCore/qchar.h \
  /usr/include/qt6/QtCore/qcompare.h \
  /usr/include/qt6/QtCore/qstdlibdetection.h \
@@ -325,7 +326,7 @@ CMakeFiles/program.dir/src/main.cpp.o: \
  /usr/include/c++/16/bits/ostream_print.h \
  /usr/include/c++/16/bits/ostream.tcc /usr/include/c++/16/istream \
  /usr/include/c++/16/bits/istream.tcc /usr/include/qt6/QtCore/qdatetime.h \
- /usr/include/qt6/QtCore/qobject.h /usr/include/qt6/QtCore/QTimer \
- /usr/include/qt6/QtCore/qtimer.h /usr/include/c++/16/thread \
- /usr/include/c++/16/bits/std_thread.h \
+ /usr/include/qt6/QtCore/qlogging.h /usr/include/qt6/QtCore/qobject.h \
+ /usr/include/qt6/QtCore/QTimer /usr/include/qt6/QtCore/qtimer.h \
+ /usr/include/c++/16/thread /usr/include/c++/16/bits/std_thread.h \
  /usr/include/c++/16/bits/this_thread_sleep.h

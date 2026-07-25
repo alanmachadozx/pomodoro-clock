@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "" "program_autogen/timestamp" "custom" "program_autogen/deps"
+  "/home/alan/Documentos/pomodoro-clock/build/program_autogen/mocs_compilation.cpp" "CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o.d"
   "/home/alan/Documentos/pomodoro-clock/src/main.cpp" "CMakeFiles/program.dir/src/main.cpp.o" "gcc" "CMakeFiles/program.dir/src/main.cpp.o.d"
   "" "program" "gcc" "CMakeFiles/program.dir/link.d"
   )

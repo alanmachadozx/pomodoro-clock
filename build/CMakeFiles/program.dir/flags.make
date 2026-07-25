@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_NO_DEBUG
 
-CXX_INCLUDES = -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++
+CXX_INCLUDES = -I/home/alan/Documentos/pomodoro-clock/build/program_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++
 
 CXX_FLAGS = -std=gnu++17 -mno-direct-extern-access
 

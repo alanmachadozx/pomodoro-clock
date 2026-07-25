@@ -5,24 +5,46 @@
 #include <chrono>
 #include <clocale>
 #include <iostream>
+#include <ostream>
 #include <qdatetime.h>
+#include <qlogging.h>
 #include <qobject.h>
 #include <QTimer>
 #include <QDebug>
+#include <cstdlib>
 #include <string>
 #include <thread>
 
 using namespace std;
 int main(int argc, char *argv[]) {
+
+    qputenv("QT_ASSUME_STDERR_HAS_CONSOLE", "1");
     QCoreApplication app(argc, argv);
     focus();
-    rest();
+    //rest();
+
+    return app.exec();
 }
 
 void focus() {
-    QTimer timer;
-    QObject::connect(&timer, &QTimer::timeout, [](){});
-    int time = 1500;
+        
+    static QTimer timer;
+    static int focusTime = 1500;
+
+    QObject::connect(&timer, &QTimer::timeout, [&](){
+        if(focusTime > 0){
+            
+            int minutes = focusTime/60;
+            int seconds = focusTime % 60;
+            qDebug() << minutes << ":" << seconds ;
+            focusTime--;
+        }
+    });
+    timer.start(1000);
+    
+}
+    
+    /* int time = 1500;
     while (time > 0) {
 
     int minutes = time / 60;
@@ -88,3 +110,4 @@ void rest() {
     time = time - 1;
   }
 }
+*/
