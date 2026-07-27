@@ -203,6 +203,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/widget.o: src/widget.cpp.o
+.PHONY : src/widget.o
+
+# target to build an object file
+src/widget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/widget.cpp.o
+.PHONY : src/widget.cpp.o
+
+src/widget.i: src/widget.cpp.i
+.PHONY : src/widget.i
+
+# target to preprocess a source file
+src/widget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/widget.cpp.i
+.PHONY : src/widget.cpp.i
+
+src/widget.s: src/widget.cpp.s
+.PHONY : src/widget.s
+
+# target to generate assembly for a file
+src/widget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/widget.cpp.s
+.PHONY : src/widget.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -220,6 +244,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/widget.o"
+	@echo "... src/widget.i"
+	@echo "... src/widget.s"
 .PHONY : help
 
 

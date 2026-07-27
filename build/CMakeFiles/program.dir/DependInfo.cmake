@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "program_autogen/timestamp" "custom" "program_autogen/deps"
   "/home/alan/Documentos/pomodoro-clock/build/program_autogen/mocs_compilation.cpp" "CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o.d"
   "/home/alan/Documentos/pomodoro-clock/src/main.cpp" "CMakeFiles/program.dir/src/main.cpp.o" "gcc" "CMakeFiles/program.dir/src/main.cpp.o.d"
+  "/home/alan/Documentos/pomodoro-clock/src/widget.cpp" "CMakeFiles/program.dir/src/widget.cpp.o" "gcc" "CMakeFiles/program.dir/src/widget.cpp.o.d"
   "" "program" "gcc" "CMakeFiles/program.dir/link.d"
   )
 

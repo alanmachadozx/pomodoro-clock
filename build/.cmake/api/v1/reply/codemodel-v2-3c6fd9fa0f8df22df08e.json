@@ -482,6 +482,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Qt6::Widgets::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Qt6__Widgets-0d64fd86ccfd79753ec5.json",
+					"name" : "Qt6::Widgets",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Qt6::androiddeployqt::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Qt6__androiddeployqt-32fb1f98d72cf6efc9fe.json",
 					"name" : "Qt6::androiddeployqt",
@@ -576,6 +583,13 @@
 					"id" : "Qt6::tracepointgen::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Qt6__tracepointgen-45bd38c729d8139d9e40.json",
 					"name" : "Qt6::tracepointgen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Qt6::uic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Qt6__uic-5bdc81b5442847dfaae6.json",
+					"name" : "Qt6::uic",
 					"projectIndex" : 0
 				},
 				{
@@ -681,6 +695,13 @@
 					"id" : "Qt::tracepointgen::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Qt__tracepointgen-c77872f570160d88ef8a.json",
 					"name" : "Qt::tracepointgen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Qt::uic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Qt__uic-691296b115f532867df8.json",
+					"name" : "Qt::uic",
 					"projectIndex" : 0
 				},
 				{
@@ -817,7 +838,10 @@
 						97,
 						98,
 						99,
-						100
+						100,
+						101,
+						102,
+						103
 					],
 					"build" : ".",
 					"jsonFile" : "directory-.-b23a0b23c080df4d29ba.json",
@@ -941,7 +965,10 @@
 						97,
 						98,
 						99,
-						100
+						100,
+						101,
+						102,
+						103
 					],
 					"directoryIndexes" : 
 					[
@@ -961,7 +988,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "program::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-program-fd77d1b87733ab7d5d48.json",
+					"jsonFile" : "target-program-13c67533a6c386c3fe92.json",
 					"name" : "program",
 					"projectIndex" : 0
 				},
@@ -975,7 +1002,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "program_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-program_autogen_timestamp_deps-7c52ecbbb83f88628567.json",
+					"jsonFile" : "target-program_autogen_timestamp_deps-c0f57d952c388b6b328c.json",
 					"name" : "program_autogen_timestamp_deps",
 					"projectIndex" : 0
 				}

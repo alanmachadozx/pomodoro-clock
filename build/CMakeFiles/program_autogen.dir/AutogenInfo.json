@@ -496,7 +496,47 @@
 		"/usr/lib/cmake/Qt6Gui/Qt6VulkanServerBufferPluginTargets.cmake",
 		"/usr/lib/cmake/Qt6Gui/Qt6VulkanServerBufferPluginTargets-relwithdebinfo.cmake",
 		"/usr/lib/cmake/Qt6Gui/Qt6VulkanServerBufferPluginAdditionalTargetInfo.cmake",
-		"/usr/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake"
+		"/usr/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake",
+		"/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake",
+		"/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake",
+		"/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+		"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+		"/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake",
+		"/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake",
+		"/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake",
+		"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake",
+		"/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake",
+		"/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake",
+		"/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake",
+		"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake",
+		"/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargetsPrecheck.cmake",
+		"/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake",
+		"/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake",
+		"/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake",
+		"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake",
+		"/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake",
+		"/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake",
+		"/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake",
+		"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake",
+		"/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargetsPrecheck.cmake",
+		"/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargetsPrecheck.cmake",
+		"/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargetsPrecheck.cmake",
+		"/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake",
+		"/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake",
+		"/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake",
+		"/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake",
+		"/usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargetsPrecheck.cmake",
+		"/usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
+		"/usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake",
+		"/usr/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake",
+		"/usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake",
+		"/usr/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake",
+		"/usr/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/alan/Documentos/pomodoro-clock",
 	"CROSS_CONFIG" : false,
@@ -506,7 +546,7 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/alan/Documentos/pomodoro-clock/build/program_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/alan/Documentos/pomodoro-clock/build/program_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_NO_DEBUG" ],
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -519,12 +559,14 @@
 		"/usr/include/qt6/QtCore",
 		"/usr/include/qt6",
 		"/usr/lib/qt6/mkspecs/linux-g++",
+		"/usr/include/qt6/QtGui",
+		"/usr/include/qt6/QtWidgets",
+		"/usr/include",
 		"/usr/include/c++/16",
 		"/usr/include/c++/16/x86_64-pc-linux-gnu",
 		"/usr/include/c++/16/backward",
 		"/usr/lib/gcc/x86_64-pc-linux-gnu/16/include",
-		"/usr/local/include",
-		"/usr/include"
+		"/usr/local/include"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -559,7 +601,8 @@
 	"SETTINGS_FILE" : "/home/alan/Documentos/pomodoro-clock/build/CMakeFiles/program_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/alan/Documentos/pomodoro-clock/src/main.cpp", "Mu", null ]
+		[ "/home/alan/Documentos/pomodoro-clock/src/main.cpp", "Mu", null ],
+		[ "/home/alan/Documentos/pomodoro-clock/src/widget.cpp", "Mu", null ]
 	],
 	"USE_BETTER_GRAPH" : true,
 	"VERBOSITY" : 0

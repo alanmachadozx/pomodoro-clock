@@ -1,28 +1,23 @@
 #include "../include/main.hpp"
-#include <QCoreApplication>
+#include <QApplication>
 #include <QDebug>
 #include <QTime>
-#include <chrono>
-#include <clocale>
-#include <iostream>
-#include <ostream>
+#include <QWidget>
 #include <qdatetime.h>
 #include <qlogging.h>
 #include <qobject.h>
 #include <QTimer>
 #include <QDebug>
-#include <cstdlib>
-#include <string>
-#include <thread>
+#include <qwidget.h>
+#include "../include/widget.hpp"
+
 
 using namespace std;
 int main(int argc, char *argv[]) {
 
-    qputenv("QT_ASSUME_STDERR_HAS_CONSOLE", "1");
-    QCoreApplication app(argc, argv);
+    QApplication app(argc, argv);
     focus();
-    //rest();
-
+    interface();
     return app.exec();
 }
 

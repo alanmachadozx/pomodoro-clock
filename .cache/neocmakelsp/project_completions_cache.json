@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-25T09:48:17.730600740-03:00",
+  "date": "2026-07-26T09:56:08.290236738-03:00",
   "data": {
     "/home/alan/Documentos/pomodoro-clock/CMakeLists.txt": [
       {
@@ -28,6 +28,12 @@
       },
       {
         "label": "Qt6::Gui",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "package from: Qt6"
+      },
+      {
+        "label": "Qt6::Widgets",
         "kind": 6,
         "detail": "Variable",
         "documentation": "package from: Qt6"
@@ -5863,6 +5869,684 @@
         "kind": 12,
         "detail": "Value",
         "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Core/Qt6CoreTargets.cmake\n\nCommands beyond this point should not need to know the version."
+      },
+      {
+        "label": "set_and_check",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined macro\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "check_required_components",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined macro\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "PACKAGE_PREFIX_DIR",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "${_var}",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "${_NAME}_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "\"Qt6Widgets_FOUND\"",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "__qt_Widgets_targets_file_included",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "__qt_Widgets_always_load_private_module",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake\n\nFind the private module counterpart."
+      },
+      {
+        "label": "_qt_cmake_dir",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "__qt_use_no_default_path_for_qt_packages",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "__qt_use_no_default_path_for_qt_packages",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "Qt6Widgets_LIBRARIES",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake\n\nConsider using target_link_libraries(app PRIVATE Qt6Widgets) instead."
+      },
+      {
+        "label": "_Qt6Widgets_OWN_INCLUDE_DIRS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "_Qt6Widgets_OWN_PRIVATE_INCLUDE_DIRS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "Qt6Widgets_DEFINITIONS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "updated_defs",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "Qt6Widgets_DEFINITIONS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "Qt6Widgets_COMPILE_DEFINITIONS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "Qt6Widgets_INCLUDE_DIRS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "Qt6Widgets_PRIVATE_INCLUDE_DIRS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "_private_suffix",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "_private_suffix",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "Qt6Widgets_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "Qt6Widgets_NOT_FOUND_MESSAGE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      },
+      {
+        "label": "QT_DEFAULT_IMPORT_CONFIGURATION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake"
+      },
+      {
+        "label": "__qt_disable_package_version_check",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake"
+      },
+      {
+        "label": "__qt_disable_package_version_check",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake"
+      },
+      {
+        "label": "__qt_package_version_incompatible",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake"
+      },
+      {
+        "label": "__qt_package_version_incompatible",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake"
+      },
+      {
+        "label": "QT_NO_PACKAGE_VERSION_INCOMPATIBLE_WARNING",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_COMPATIBLE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake\n\nMark version as compatible. This is how we disable the version check."
+      },
+      {
+        "label": "__qt_package_version_message_prefix",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake"
+      },
+      {
+        "label": "__qt_package_version_message_prefix",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_COMPATIBLE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_COMPATIBLE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_COMPATIBLE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_COMPATIBLE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_EXACT",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_UNSUITABLE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake"
+      },
+      {
+        "label": "Qt6Widgets_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake\n\nMake sure Qt6 is found before anything else."
+      },
+      {
+        "label": "_qt_cmake_dir",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake"
+      },
+      {
+        "label": "__qt_use_no_default_path_for_qt_packages",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake"
+      },
+      {
+        "label": "__qt_use_no_default_path_for_qt_packages",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake"
+      },
+      {
+        "label": "${CMAKE_FIND_PACKAGE_NAME}_FIND_REQUIRED",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake\n\nset _NOT_FOUND_MESSAGE which will be displayed by the includer of the Dependencies file."
+      },
+      {
+        "label": "__qt_Widgets_third_party_deps",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake\n\nnote: _third_party_deps example: \"ICU\\\\;FALSE\\\\;1.0\\\\;i18n uc data;ZLIB\\\\;FALSE\\\\;\\\\;\""
+      },
+      {
+        "label": "__qt_Widgets_tool_deps",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake\n\nFind Qt tool package."
+      },
+      {
+        "label": "__qt_Widgets_target_deps",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake\n\nnote: target_deps example: \"Qt6Core\\;5.12.0;Qt6Gui\\;5.12.0\""
+      },
+      {
+        "label": "__qt_Widgets_find_dependency_paths",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake"
+      },
+      {
+        "label": "_Qt6Widgets_MODULE_DEPENDENCIES",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake"
+      },
+      {
+        "label": "Qt6Widgets_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake"
+      },
+      {
+        "label": "qt6_wrap_ui",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined function\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "qt_wrap_ui",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined function\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "qt6_add_ui",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined function\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "_qt_internal_generate_dash_path_from_input",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined function\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake\n\nbe `_/_`"
+      },
+      {
+        "label": "qt_add_ui",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined function\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "options",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "oneValueArgs",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "multiValueArgs",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "ui_files",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "ui_options",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "outfile",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "${outfiles}",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "\"${outfiles}\"",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "options",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "oneValueArgs",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "multiValueArgs",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "sources",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "ui_options",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "raw_include_prefix",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "${out_generated_dash_path}",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "dummy_path_for_relative_calculation",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "raw_include_prefix_to_compare",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "dummy_path_for_relative_calculation",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "raw_include_prefix_to_compare",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "dummy_path_for_relative_calculation",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "raw_include_prefix_to_compare",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "is_ui_options_contains_config",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "include_folder",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "include_folder_to_add",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "include_folder_to_add",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "prefix_info_file_cmake",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "prefix_info_file_cmake_exists",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "prefix_info_file_cmake_exists",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "file_ui_folder",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "target_include_folder_with_add_path",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "target_include_folder_with_add_path",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "inc_dir_to_create",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "inc_dir_to_create",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "output_directory",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "output_directory",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "outfile",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "prefix_info_list",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "remove_command",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "remove_command",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "error_message_1",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake\n\ndivided into parts."
+      },
+      {
+        "label": "error_message_2",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "ui_property_check_dummy_file",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+      },
+      {
+        "label": "QT_SKIP_AUTO_PLUGIN_INCLUSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake"
+      },
+      {
+        "label": "CMAKE_IMPORT_FILE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake\n\nCommands may need to know the format version."
+      },
+      {
+        "label": "CMAKE_IMPORT_FILE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake\n\nCommands beyond this point should not need to know the version."
+      },
+      {
+        "label": "CMAKE_IMPORT_FILE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake\n\nCommands may need to know the format version."
+      },
+      {
+        "label": "_cmake_targets_defined",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake\n\nProtect against multiple inclusion, which would fail when already imported targets are added once more."
+      },
+      {
+        "label": "_cmake_targets_not_defined",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake"
+      },
+      {
+        "label": "_cmake_expected_targets",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake"
+      },
+      {
+        "label": "_IMPORT_PREFIX",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake"
+      },
+      {
+        "label": "_IMPORT_PREFIX",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake"
+      },
+      {
+        "label": "_IMPORT_PREFIX",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake\n\nCleanup temporary variables."
+      },
+      {
+        "label": "${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE_targets",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake"
+      },
+      {
+        "label": "${CMAKE_FIND_PACKAGE_NAME}_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake"
+      },
+      {
+        "label": "${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake"
+      },
+      {
+        "label": "CMAKE_IMPORT_FILE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake\n\nCommands beyond this point should not need to know the version."
       }
     ]
   }

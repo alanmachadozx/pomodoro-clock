@@ -6,6 +6,7 @@ program_autogen/timestamp: /home/alan/Documentos/pomodoro-clock/CMakeLists.txt \
   CMakeFiles/4.4.0/CMakeCXXCompiler.cmake \
   CMakeFiles/4.4.0/CMakeSystem.cmake \
   /home/alan/Documentos/pomodoro-clock/src/main.cpp \
+  /home/alan/Documentos/pomodoro-clock/src/widget.cpp \
   /usr/bin/cmake \
   /usr/lib/cmake/Qt6/FindWrapAtomic.cmake \
   /usr/lib/cmake/Qt6/FindWrapOpenGL.cmake \
@@ -360,6 +361,26 @@ program_autogen/timestamp: /home/alan/Documentos/pomodoro-clock/CMakeLists.txt \
   /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
   /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargetsPrecheck.cmake \
   /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargetsPrecheck.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake \
+  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
+  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargetsPrecheck.cmake \
+  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
   /usr/share/cmake/Modules/CMakeCInformation.cmake \
   /usr/share/cmake/Modules/CMakeCXXInformation.cmake \
   /usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
@@ -446,6 +467,22 @@ program_autogen/timestamp: /home/alan/Documentos/pomodoro-clock/CMakeLists.txt \
 /usr/share/cmake/Modules/CMakeGenericSystem.cmake:
 
 /usr/share/cmake/Modules/CMakeCXXInformation.cmake:
+
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargetsPrecheck.cmake:
 
@@ -555,6 +592,8 @@ program_autogen/timestamp: /home/alan/Documentos/pomodoro-clock/CMakeLists.txt \
 
 /usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake:
 
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargetsPrecheck.cmake:
+
 /usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake:
 
 /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake:
@@ -596,6 +635,8 @@ program_autogen/timestamp: /home/alan/Documentos/pomodoro-clock/CMakeLists.txt \
 /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6DrmEglServerBufferPluginConfig.cmake:
 
@@ -675,10 +716,6 @@ program_autogen/timestamp: /home/alan/Documentos/pomodoro-clock/CMakeLists.txt \
 
 /usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake:
-
 /usr/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake:
 
 /usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
@@ -723,26 +760,6 @@ program_autogen/timestamp: /home/alan/Documentos/pomodoro-clock/CMakeLists.txt \
 
 /usr/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake:
 
-/usr/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandFullScreenShellV1IntegrationPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake:
-
-/usr/lib/cmake/Qt6/Qt6Dependencies.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6DmaBufServerBufferPluginConfig.cmake:
-
-/usr/share/cmake/Modules/FindOpenGL.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargetsPrecheck.cmake:
-
-/usr/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake:
-
 /usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
@@ -761,6 +778,24 @@ program_autogen/timestamp: /home/alan/Documentos/pomodoro-clock/CMakeLists.txt \
 
 /usr/lib/cmake/Qt6/QtPublicCMakeEarlyPolicyHelpers.cmake:
 
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
+
+/usr/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6/Qt6Targets.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
+
 /usr/lib/cmake/Qt6Gui/Qt6VulkanServerBufferPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6ShmServerBufferPluginTargets-relwithdebinfo.cmake:
@@ -768,10 +803,6 @@ program_autogen/timestamp: /home/alan/Documentos/pomodoro-clock/CMakeLists.txt \
 /usr/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake:
 
 /usr/lib/cmake/Qt6/QtPublicAppleHelpers.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake:
 
@@ -797,21 +828,47 @@ program_autogen/timestamp: /home/alan/Documentos/pomodoro-clock/CMakeLists.txt \
 
 /home/alan/Documentos/pomodoro-clock/CMakeLists.txt:
 
-/usr/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake:
+/usr/lib/cmake/Qt6Gui/Qt6QWaylandFullScreenShellV1IntegrationPluginTargets.cmake:
 
-CMakeFiles/4.4.0/CMakeCXXCompiler.cmake:
+/usr/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6DmaBufServerBufferPluginTargetsPrecheck.cmake:
+/usr/lib/cmake/Qt6/Qt6Dependencies.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginConfig.cmake:
+/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6DmaBufServerBufferPluginConfig.cmake:
+
+/usr/share/cmake/Modules/FindOpenGL.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargetsPrecheck.cmake:
+
+/usr/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake:
+
+/usr/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake:
+
+/usr/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
+
+/usr/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake:
 
 /usr/lib/cmake/Qt6/QtFeatureCommon.cmake:
 
 CMakeFiles/4.4.0/CMakeCCompiler.cmake:
 
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargetsPrecheck.cmake:
+
 /usr/lib/cmake/Qt6/QtPublicSbomCycloneDXHelpers.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargetsPrecheck.cmake:
+
+CMakeFiles/4.4.0/CMakeCXXCompiler.cmake:
+
+/usr/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6DmaBufServerBufferPluginTargetsPrecheck.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginConfig.cmake:
 
 /usr/share/cmake/Modules/Platform/UnixPaths.cmake:
 
@@ -831,6 +888,10 @@ CMakeFiles/4.4.0/CMakeCCompiler.cmake:
 
 /usr/lib/cmake/Qt6/QtPublicSbomGenerationCycloneDXHelpers.cmake:
 
+/usr/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6/QtPublicSbomRelationshipHelpers.cmake:
+
 /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
@@ -849,16 +910,6 @@ CMakeFiles/4.4.0/CMakeSystem.cmake:
 
 /home/alan/Documentos/pomodoro-clock/src/main.cpp:
 
-/usr/lib/cmake/Qt6/FindWrapAtomic.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6/FindWrapOpenGL.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicSbomBuildToolHelpers.cmake:
-
 /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake:
 
 /usr/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake:
@@ -867,11 +918,25 @@ CMakeFiles/4.4.0/CMakeSystem.cmake:
 
 /usr/lib/cmake/Qt6/QtPublicGitHelpers.cmake:
 
+/usr/lib/cmake/Qt6/FindWrapAtomic.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6/FindWrapOpenGL.cmake:
+
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6/QtPublicSbomBuildToolHelpers.cmake:
+
 /usr/lib/cmake/Qt6/QtPublicSbomHelpers.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib/cmake/Qt6Core/Qt6CoreTargets.cmake:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake:
 
 /usr/lib/cmake/Qt6/QtPublicSbomCommonGenerationHelpers.cmake:
 
@@ -923,6 +988,8 @@ CMakeFiles/4.4.0/CMakeSystem.cmake:
 
 /usr/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake:
 
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake:
+
 /usr/lib/cmake/Qt6Gui/Qt6QMngPluginTargets-relwithdebinfo.cmake:
 
 /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake:
@@ -930,6 +997,8 @@ CMakeFiles/4.4.0/CMakeSystem.cmake:
 /usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
+
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
 
 /usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake:
 
@@ -957,23 +1026,9 @@ CMakeFiles/4.4.0/CMakeSystem.cmake:
 
 /usr/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake:
+/usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6/Qt6Targets.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6/QtPublicSbomRelationshipHelpers.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake:
+/usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake:
 
@@ -1065,6 +1120,8 @@ CMakeFiles/4.4.0/CMakeSystem.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake:
 
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake:
+
 /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake:
@@ -1119,6 +1176,8 @@ CMakeFiles/4.4.0/CMakeSystem.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginAdditionalTargetInfo.cmake:
 
+/home/alan/Documentos/pomodoro-clock/src/widget.cpp:
+
 /usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginTargets.cmake:
 
 /usr/lib/cmake/Qt6/QtPublicSbomExternalReferenceHelpers.cmake:
@@ -1151,6 +1210,8 @@ CMakeFiles/4.4.0/CMakeSystem.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake:
 
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake:
+
 /usr/lib/cmake/Qt6/QtFeature.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake:
@@ -1174,6 +1235,8 @@ CMakeFiles/4.4.0/CMakeSystem.cmake:
 /usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake:
 

@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/program.dir/src/main.cpp.o"
   "CMakeFiles/program.dir/src/main.cpp.o.d"
+  "CMakeFiles/program.dir/src/widget.cpp.o"
+  "CMakeFiles/program.dir/src/widget.cpp.o.d"
   "program"
   "program.pdb"
   "program_autogen/mocs_compilation.cpp"
