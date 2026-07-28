@@ -134,10 +134,15 @@ program: CMakeFiles/program.dir/src/main.cpp.o
 program: CMakeFiles/program.dir/src/widget.cpp.o
 program: CMakeFiles/program.dir/build.make
 program: CMakeFiles/program.dir/compiler_depend.ts
+program: /usr/lib/libQt6QuickWidgets.so.6.11.1
 program: /usr/lib/libQt6Widgets.so.6.11.1
+program: /usr/lib/libQt6Quick.so.6.11.1
+program: /usr/lib/libQt6OpenGL.so.6.11.1
 program: /usr/lib/libQt6Gui.so.6.11.1
 program: /usr/lib/libGLX.so
 program: /usr/lib/libOpenGL.so
+program: /usr/lib/libQt6Qml.so.6.11.1
+program: /usr/lib/libQt6Network.so.6.11.1
 program: /usr/lib/libQt6Core.so.6.11.1
 program: CMakeFiles/program.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable program"

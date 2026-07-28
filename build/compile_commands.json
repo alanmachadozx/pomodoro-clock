@@ -1,19 +1,19 @@
 [
 {
   "directory": "/home/alan/Documentos/pomodoro-clock/build",
-  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/alan/Documentos/pomodoro-clock/build/program_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o -c /home/alan/Documentos/pomodoro-clock/build/program_autogen/mocs_compilation.cpp",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKWIDGETS_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/alan/Documentos/pomodoro-clock/build/program_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuickWidgets -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o -c /home/alan/Documentos/pomodoro-clock/build/program_autogen/mocs_compilation.cpp",
   "file": "/home/alan/Documentos/pomodoro-clock/build/program_autogen/mocs_compilation.cpp",
   "output": "CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o"
 },
 {
   "directory": "/home/alan/Documentos/pomodoro-clock/build",
-  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/alan/Documentos/pomodoro-clock/build/program_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/program.dir/src/main.cpp.o -c /home/alan/Documentos/pomodoro-clock/src/main.cpp",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKWIDGETS_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/alan/Documentos/pomodoro-clock/build/program_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuickWidgets -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/program.dir/src/main.cpp.o -c /home/alan/Documentos/pomodoro-clock/src/main.cpp",
   "file": "/home/alan/Documentos/pomodoro-clock/src/main.cpp",
   "output": "CMakeFiles/program.dir/src/main.cpp.o"
 },
 {
   "directory": "/home/alan/Documentos/pomodoro-clock/build",
-  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/alan/Documentos/pomodoro-clock/build/program_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/program.dir/src/widget.cpp.o -c /home/alan/Documentos/pomodoro-clock/src/widget.cpp",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKWIDGETS_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/alan/Documentos/pomodoro-clock/build/program_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuickWidgets -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/program.dir/src/widget.cpp.o -c /home/alan/Documentos/pomodoro-clock/src/widget.cpp",
   "file": "/home/alan/Documentos/pomodoro-clock/src/widget.cpp",
   "output": "CMakeFiles/program.dir/src/widget.cpp.o"
 }

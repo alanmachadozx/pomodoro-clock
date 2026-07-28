@@ -1,42 +1,15 @@
 #include "../include/main.hpp"
 #include <QApplication>
-#include <QDebug>
-#include <QTime>
-#include <QWidget>
-#include <qdatetime.h>
-#include <qlogging.h>
-#include <qobject.h>
-#include <QTimer>
-#include <QDebug>
-#include <qwidget.h>
 #include "../include/widget.hpp"
-
+#include "../include/timer.hpp"
 
 using namespace std;
 int main(int argc, char *argv[]) {
 
     QApplication app(argc, argv);
-    focus();
     interface();
+    focus();
     return app.exec();
-}
-
-void focus() {
-        
-    static QTimer timer;
-    static int focusTime = 1500;
-
-    QObject::connect(&timer, &QTimer::timeout, [&](){
-        if(focusTime > 0){
-            
-            int minutes = focusTime/60;
-            int seconds = focusTime % 60;
-            qDebug() << minutes << ":" << seconds ;
-            focusTime--;
-        }
-    });
-    timer.start(1000);
-    
 }
     
     /* int time = 1500;
