@@ -1,16 +1,24 @@
 #include "../include/main.hpp"
 #include <QApplication>
-#include "../include/widget.hpp"
 #include "../include/timer.hpp"
-
+#include<QQmlApplicationEngine>
+#include <qqmlapplicationengine.h>
+#include <QVBoxLayout>
+#include <QWidget>
+#include <qboxlayout.h>
+#include <qwidget.h>
+#include <QUrl>
 using namespace std;
-int main(int argc, char *argv[]) {
 
+int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
-    interface();
+    QQmlApplicationEngine engine;
+    engine.loadFromModule("PomodoroApp", "Main");
     focus();
+
     return app.exec();
 }
+
     
     /* int time = 1500;
     while (time > 0) {

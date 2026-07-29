@@ -1,0 +1,14 @@
+-rootPath
+/home/alan/Documentos/pomodoro-clock
+-cmake-output
+-output-file
+/home/alan/Documentos/pomodoro-clock/build/.qt/qml_imports/program_build.cmake
+-importPath
+/home/alan/Documentos/pomodoro-clock/build
+-importPath
+/home/alan/Documentos/pomodoro-clock/build/PomodoroApp
+-importPath
+/usr/lib/qt6/qml
+-qrcFiles
+/home/alan/Documentos/pomodoro-clock/build/.qt/rcc/qmake_PomodoroApp.qrc
+/home/alan/Documentos/pomodoro-clock/build/.qt/rcc/program_raw_qml_0.qrc

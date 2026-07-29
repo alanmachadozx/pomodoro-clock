@@ -1,0 +1,5 @@
+--resource
+/home/alan/Documentos/pomodoro-clock/build/.qt/rcc/qmake_PomodoroApp.qrc
+--resource
+/home/alan/Documentos/pomodoro-clock/build/.qt/rcc/program_raw_qml_0.qrc
+/PomodoroApp/qml/Main.qml

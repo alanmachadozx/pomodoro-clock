@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-28T17:45:57.190655587-03:00",
+  "date": "2026-07-28T18:15:53.812215471-03:00",
   "data": {
     "/home/alan/Documentos/pomodoro-clock/CMakeLists.txt": [
       {
@@ -39,13 +39,19 @@
         "documentation": "package from: Qt6"
       },
       {
-        "label": "Qt6::QuickWidgets",
+        "label": "Qt6::Quick",
         "kind": 6,
         "detail": "Variable",
         "documentation": "package from: Qt6"
       },
       {
         "label": "Qt6::Qml",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "package from: Qt6"
+      },
+      {
+        "label": "Qt6::QuickControls2",
         "kind": 6,
         "detail": "Variable",
         "documentation": "package from: Qt6"
@@ -6564,31 +6570,31 @@
         "label": "set_and_check",
         "kind": 3,
         "detail": "Function",
-        "documentation": "defined macro\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined macro\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
         "label": "check_required_components",
         "kind": 3,
         "detail": "Function",
-        "documentation": "defined macro\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined macro\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
         "label": "PACKAGE_PREFIX_DIR",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
         "label": "${_var}",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
         "label": "${_NAME}_FOUND",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
         "label": "find_dependency",
@@ -6687,364 +6693,370 @@
         "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
       },
       {
-        "label": "\"Qt6QuickWidgets_FOUND\"",
+        "label": "\"Qt6Quick_FOUND\"",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
-        "label": "__qt_QuickWidgets_targets_file_included",
+        "label": "__qt_Quick_targets_file_included",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
-        "label": "__qt_QuickWidgets_always_load_private_module",
+        "label": "__qt_Quick_always_load_private_module",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake\n\nFind the private module counterpart."
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake\n\nFind the private module counterpart."
       },
       {
         "label": "_qt_cmake_dir",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
         "label": "__qt_use_no_default_path_for_qt_packages",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
         "label": "__qt_use_no_default_path_for_qt_packages",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
-        "label": "Qt6QuickWidgets_LIBRARIES",
+        "label": "Qt6Quick_LIBRARIES",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake\n\nConsider using target_link_libraries(app PRIVATE Qt6QuickWidgets) instead."
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake\n\nConsider using target_link_libraries(app PRIVATE Qt6Quick) instead."
       },
       {
-        "label": "_Qt6QuickWidgets_OWN_INCLUDE_DIRS",
+        "label": "_Qt6Quick_OWN_INCLUDE_DIRS",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
-        "label": "_Qt6QuickWidgets_OWN_PRIVATE_INCLUDE_DIRS",
+        "label": "_Qt6Quick_OWN_PRIVATE_INCLUDE_DIRS",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
-        "label": "Qt6QuickWidgets_DEFINITIONS",
+        "label": "Qt6Quick_DEFINITIONS",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
         "label": "updated_defs",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
-        "label": "Qt6QuickWidgets_DEFINITIONS",
+        "label": "Qt6Quick_DEFINITIONS",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
-        "label": "Qt6QuickWidgets_COMPILE_DEFINITIONS",
+        "label": "Qt6Quick_COMPILE_DEFINITIONS",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
-        "label": "Qt6QuickWidgets_INCLUDE_DIRS",
+        "label": "Qt6Quick_INCLUDE_DIRS",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
-        "label": "Qt6QuickWidgets_PRIVATE_INCLUDE_DIRS",
+        "label": "Qt6Quick_PRIVATE_INCLUDE_DIRS",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
-      },
-      {
-        "label": "_private_suffix",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
         "label": "_private_suffix",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
-        "label": "Qt6QuickWidgets_FOUND",
+        "label": "_private_suffix",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
-        "label": "Qt6QuickWidgets_NOT_FOUND_MESSAGE",
+        "label": "Qt6Quick_FOUND",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
+      },
+      {
+        "label": "Qt6Quick_NOT_FOUND_MESSAGE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       },
       {
         "label": "QT_DEFAULT_IMPORT_CONFIGURATION",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsAdditionalTargetInfo.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickAdditionalTargetInfo.cmake"
       },
       {
         "label": "__qt_disable_package_version_check",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersion.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfigVersion.cmake"
       },
       {
         "label": "__qt_disable_package_version_check",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersion.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfigVersion.cmake"
       },
       {
         "label": "__qt_package_version_incompatible",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersion.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfigVersion.cmake"
       },
       {
         "label": "__qt_package_version_incompatible",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersion.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfigVersion.cmake"
       },
       {
         "label": "QT_NO_PACKAGE_VERSION_INCOMPATIBLE_WARNING",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersion.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfigVersion.cmake"
       },
       {
         "label": "PACKAGE_VERSION_COMPATIBLE",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersion.cmake\n\nMark version as compatible. This is how we disable the version check."
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfigVersion.cmake\n\nMark version as compatible. This is how we disable the version check."
       },
       {
         "label": "__qt_package_version_message_prefix",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersion.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfigVersion.cmake"
       },
       {
         "label": "__qt_package_version_message_prefix",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersion.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfigVersion.cmake"
       },
       {
         "label": "PACKAGE_VERSION",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersionImpl.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfigVersionImpl.cmake"
       },
       {
         "label": "PACKAGE_VERSION_COMPATIBLE",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersionImpl.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfigVersionImpl.cmake"
       },
       {
         "label": "PACKAGE_VERSION_COMPATIBLE",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersionImpl.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfigVersionImpl.cmake"
       },
       {
         "label": "PACKAGE_VERSION_COMPATIBLE",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersionImpl.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfigVersionImpl.cmake"
       },
       {
         "label": "PACKAGE_VERSION_COMPATIBLE",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersionImpl.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfigVersionImpl.cmake"
       },
       {
         "label": "PACKAGE_VERSION_EXACT",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersionImpl.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfigVersionImpl.cmake"
       },
       {
         "label": "PACKAGE_VERSION",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersionImpl.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfigVersionImpl.cmake"
       },
       {
         "label": "PACKAGE_VERSION_UNSUITABLE",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersionImpl.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickConfigVersionImpl.cmake"
       },
       {
-        "label": "Qt6QuickWidgets_FOUND",
+        "label": "Qt6Quick_FOUND",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsDependencies.cmake\n\nMake sure Qt6 is found before anything else."
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake\n\nMake sure Qt6 is found before anything else."
       },
       {
         "label": "_qt_cmake_dir",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsDependencies.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake"
       },
       {
         "label": "__qt_use_no_default_path_for_qt_packages",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsDependencies.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake"
       },
       {
         "label": "__qt_use_no_default_path_for_qt_packages",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsDependencies.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake"
       },
       {
         "label": "${CMAKE_FIND_PACKAGE_NAME}_FIND_REQUIRED",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsDependencies.cmake\n\nset _NOT_FOUND_MESSAGE which will be displayed by the includer of the Dependencies file."
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake\n\nset _NOT_FOUND_MESSAGE which will be displayed by the includer of the Dependencies file."
       },
       {
-        "label": "__qt_QuickWidgets_third_party_deps",
+        "label": "__qt_Quick_third_party_deps",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsDependencies.cmake\n\nnote: _third_party_deps example: \"ICU\\\\;FALSE\\\\;1.0\\\\;i18n uc data;ZLIB\\\\;FALSE\\\\;\\\\;\""
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake\n\nnote: _third_party_deps example: \"ICU\\\\;FALSE\\\\;1.0\\\\;i18n uc data;ZLIB\\\\;FALSE\\\\;\\\\;\""
       },
       {
-        "label": "__qt_QuickWidgets_tool_deps",
+        "label": "__qt_Quick_tool_deps",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsDependencies.cmake\n\nFind Qt tool package."
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake\n\nFind Qt tool package."
       },
       {
-        "label": "__qt_QuickWidgets_target_deps",
+        "label": "__qt_Quick_target_deps",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsDependencies.cmake\n\nnote: target_deps example: \"Qt6Core\\;5.12.0;Qt6Gui\\;5.12.0\""
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake\n\nnote: target_deps example: \"Qt6Core\\;5.12.0;Qt6Gui\\;5.12.0\""
       },
       {
-        "label": "__qt_QuickWidgets_find_dependency_paths",
+        "label": "__qt_Quick_find_dependency_paths",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsDependencies.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake"
       },
       {
-        "label": "_Qt6QuickWidgets_MODULE_DEPENDENCIES",
+        "label": "_Qt6Quick_MODULE_DEPENDENCIES",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsDependencies.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake"
       },
       {
-        "label": "Qt6QuickWidgets_FOUND",
+        "label": "Qt6Quick_FOUND",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsDependencies.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake"
       },
       {
-        "label": "CMAKE_IMPORT_FILE_VERSION",
+        "label": "QT_SKIP_AUTO_PLUGIN_INCLUSION",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsTargets-relwithdebinfo.cmake\n\nCommands may need to know the format version."
-      },
-      {
-        "label": "CMAKE_IMPORT_FILE_VERSION",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsTargets-relwithdebinfo.cmake\n\nCommands beyond this point should not need to know the version."
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickPlugins.cmake"
       },
       {
         "label": "CMAKE_IMPORT_FILE_VERSION",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsTargets.cmake\n\nCommands may need to know the format version."
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickTargets-relwithdebinfo.cmake\n\nCommands may need to know the format version."
+      },
+      {
+        "label": "CMAKE_IMPORT_FILE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickTargets-relwithdebinfo.cmake\n\nCommands beyond this point should not need to know the version."
+      },
+      {
+        "label": "CMAKE_IMPORT_FILE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake\n\nCommands may need to know the format version."
       },
       {
         "label": "_cmake_targets_defined",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsTargets.cmake\n\nProtect against multiple inclusion, which would fail when already imported targets are added once more."
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake\n\nProtect against multiple inclusion, which would fail when already imported targets are added once more."
       },
       {
         "label": "_cmake_targets_not_defined",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsTargets.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake"
       },
       {
         "label": "_cmake_expected_targets",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsTargets.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake"
       },
       {
         "label": "_IMPORT_PREFIX",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsTargets.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake"
       },
       {
         "label": "_IMPORT_PREFIX",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsTargets.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake"
       },
       {
         "label": "_IMPORT_PREFIX",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsTargets.cmake\n\nCleanup temporary variables."
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake\n\nCleanup temporary variables."
       },
       {
         "label": "${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE_targets",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsTargets.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake"
       },
       {
         "label": "${CMAKE_FIND_PACKAGE_NAME}_FOUND",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsTargets.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake"
       },
       {
         "label": "${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsTargets.cmake"
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake"
       },
       {
         "label": "CMAKE_IMPORT_FILE_VERSION",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsTargets.cmake\n\nCommands beyond this point should not need to know the version."
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake\n\nCommands beyond this point should not need to know the version."
       },
       {
         "label": "set_and_check",
@@ -7075,102 +7087,6 @@
         "kind": 12,
         "detail": "Value",
         "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Qml/Qt6QQuick3DProfilerAdapterFactoryPluginConfig.cmake"
-      },
-      {
-        "label": "find_dependency",
-        "kind": 3,
-        "detail": "Command",
-        "documentation": "defined command from CMakeFindDependencyMacro.cmake\n.rst:\nCMakeFindDependencyMacro\n------------------------\n\nThis module provides a command implemented as a macro that finds dependency\nfor a package.\n\nLoad this module in a CMake package configuration file with:\n\n.. code-block:: cmake\n  :caption: ``FooConfig.cmake`` or ``foo-config.cmake``:\n\n  include(CMakeFindDependencyMacro)\n\n.. note::\n\n  This module is designed to be used in a :ref:`Package Configuration File\n  <Config File Packages>` (``<PackageName>Config.cmake``).\n\nCommands\n^^^^^^^^\n\nThis module provides the following command:\n\n.. command:: find_dependency\n\n  The ``find_dependency()`` macro wraps a :command:`find_package` call for\n  a package dependency:\n\n  .. code-block:: cmake\n\n    find_dependency(<dep> [...])\n\n  It is designed to be used in a\n  :ref:`Package Configuration File <Config File Packages>`\n  (``<PackageName>Config.cmake``).  ``find_dependency`` forwards the correct\n  parameters for ``QUIET`` and ``REQUIRED`` which were passed to\n  the original :command:`find_package` call.  Any additional arguments\n  specified are forwarded to :command:`find_package`.\n\n  If the dependency could not be found it sets an informative diagnostic\n  message and calls :command:`return` to end processing of the calling\n  package configuration file and return to the :command:`find_package`\n  command that loaded it.\n\n  .. note::\n\n    The call to :command:`return` makes this macro unsuitable to call\n    from :ref:`Find Modules`.\n\nPackage Dependency Search Optimizations\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\nIf ``find_dependency`` is called with arguments identical to a previous\ncall in the same directory, perhaps due to diamond-shaped package\ndependencies, the underlying call to :command:`find_package` is optimized\nout.  This optimization is important to support large package dependency\ngraphs while avoiding a combinatorial explosion of repeated searches.\nHowever, the heuristic cannot account for ambient variables that\naffect package behavior, such as ``<PackageName>_USE_STATIC_LIBS``,\noffered by some packages.  Therefore package configuration files should\navoid setting such variables before their calls to ``find_dependency``.\n\n.. versionchanged:: 3.15\n  Previously, the underlying call to :command:`find_package` was always\n  optimized out if the package had already been found.  CMake 3.15\n  removed the optimization to support cases in which ``find_dependency``\n  call arguments request different components.\n\n.. versionchanged:: 3.26\n  The pre-3.15 optimization was restored, but with the above-described\n  heuristic to account for varying ``find_dependency`` call arguments.\n\n#"
-      },
-      {
-        "label": "__find_dependency_common",
-        "kind": 3,
-        "detail": "Function",
-        "documentation": "defined macro\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-      },
-      {
-        "label": "__find_dependency_no_return",
-        "kind": 3,
-        "detail": "Function",
-        "documentation": "defined macro\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-      },
-      {
-        "label": "find_dependency",
-        "kind": 3,
-        "detail": "Function",
-        "documentation": "defined macro\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-      },
-      {
-        "label": "cmake_fd_quiet_arg",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-      },
-      {
-        "label": "cmake_fd_quiet_arg",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-      },
-      {
-        "label": "cmake_fd_required_arg",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-      },
-      {
-        "label": "cmake_fd_required_arg",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-      },
-      {
-        "label": "${dep}_LIBRARIES",
-        "kind": 6,
-        "detail": "Variable",
-        "documentation": "package: ${dep}"
-      },
-      {
-        "label": "${dep}_INCLUDE_DIRS",
-        "kind": 6,
-        "detail": "Variable",
-        "documentation": "package: ${dep}"
-      },
-      {
-        "label": "\"_CMAKE_${dep}_${cmake_fd_call_hash}_FOUND\"",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-      },
-      {
-        "label": "${dep}_FOUND",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-      },
-      {
-        "label": "${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-      },
-      {
-        "label": "${CMAKE_FIND_PACKAGE_NAME}_FOUND",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-      },
-      {
-        "label": "${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-      },
-      {
-        "label": "${CMAKE_FIND_PACKAGE_NAME}_FOUND",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
       },
       {
         "label": "QQuick3DProfilerAdapterFactoryPlugin_FOUND",
@@ -11067,498 +10983,6 @@
         "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake"
       },
       {
-        "label": "GNUInstallDirs_get_absolute_install_dir",
-        "kind": 3,
-        "detail": "Command",
-        "documentation": "defined command from GNUInstallDirs.cmake\n.rst:\nGNUInstallDirs\n--------------\n\nThis module defines the installation directory variables according to the\n`GNU Coding Standards`_ and provides a command to compute\ninstallation-related absolute paths.\n\nLoad this module in a CMake project with:\n\n.. code-block:: cmake\n\n  include(GNUInstallDirs)\n\n.. _`GNU Coding Standards`: https://www.gnu.org/prep/standards/html_node/Directory-Variables.html\n\nResult Variables\n^^^^^^^^^^^^^^^^\n\nInclusion of this module defines the following variables:\n\n``CMAKE_INSTALL_<dir>``\n  Destination for files of a given type.  This value may be passed to\n  the ``DESTINATION`` options of  :command:`install` commands for the\n  corresponding file type.  It should be a path relative to the installation\n  prefix so that it can be converted to an absolute path in a relocatable way.\n  However, there are some `special cases`_ as documented below.\n\n  While absolute paths are allowed, they are not recommended as they\n  do not work with the ``cmake --install`` command's\n  :option:`--prefix <cmake--install --prefix>` option, or with the\n  :manual:`cpack <cpack(1)>` installer generators. In particular, there is no\n  need to make paths absolute by prepending :variable:`CMAKE_INSTALL_PREFIX`;\n  this prefix is used by default if the DESTINATION is a relative path.\n\n``CMAKE_INSTALL_FULL_<dir>``\n  The absolute path generated from the corresponding ``CMAKE_INSTALL_<dir>``\n  value.  If the value is not already an absolute path, an absolute path\n  is constructed typically by prepending the value of the\n  :variable:`CMAKE_INSTALL_PREFIX` variable, except in `special cases`_\n  as documented below.\n\n  These variables shouldn't be used in :command:`install` commands\n  as they do not work with the ``cmake --install`` command's\n  :option:`--prefix <cmake--install --prefix>` option, or with the\n  :manual:`cpack <cpack(1)>` installer generators.\n\nwhere ``<dir>`` is one of:\n\n``BINDIR``\n  user executables (``bin``)\n``SBINDIR``\n  system admin executables (``sbin``)\n``LIBEXECDIR``\n  program executables (``libexec``)\n``SYSCONFDIR``\n  read-only single-machine data (``etc``)\n\n  .. versionchanged:: 4.1\n    If the :variable:`CMAKE_INSTALL_PREFIX` falls into the\n    `special cases`_,  the default paths for are the absolute\n    path variants as described there. See policy :policy:`CMP0192`.\n``SHAREDSTATEDIR``\n  modifiable architecture-independent data (``com``)\n``LOCALSTATEDIR``\n  modifiable single-machine data (``var``)\n\n  .. versionchanged:: 4.1\n    If the :variable:`CMAKE_INSTALL_PREFIX` falls into the\n    `special cases`_,  the default paths for are the absolute\n    path variants as described there. See policy :policy:`CMP0192`.\n``RUNSTATEDIR``\n  run-time variable data (``LOCALSTATEDIR/run``)\n\n  .. versionadded:: 3.9\n\n  .. versionchanged:: 4.1\n    If the :variable:`CMAKE_INSTALL_PREFIX` falls into the\n    `special cases`_,  the default paths for are the absolute\n    path variants as described there. See policy :policy:`CMP0192`.\n``LIBDIR``\n  object code libraries (``lib`` or ``lib64``)\n\n  On Debian, this may be ``lib/<multiarch-tuple>`` when\n  :variable:`CMAKE_INSTALL_PREFIX` is ``/usr``.\n\n  .. note::\n\n    When an alternative installation prefix is specified with the\n    :option:`--prefix <cmake--install --prefix>` option at install time,\n    the special case with multi-architecture tuple is evaluated based on\n    the configuration-time :variable:`CMAKE_INSTALL_PREFIX`, not on the\n    alternative prefix value.\n\n``INCLUDEDIR``\n  C header files (``include``)\n``OLDINCLUDEDIR``\n  C header files for non-gcc (``/usr/include``)\n``DATAROOTDIR``\n  read-only architecture-independent data root (``share``)\n``DATADIR``\n  read-only architecture-independent data (``DATAROOTDIR``)\n\n  The ``DATADIR`` and ``DATAROOTDIR`` are treated separately so that\n  ``DATADIR`` can be customized for project-specific data files, while\n  ``DATAROOTDIR`` remains unchanged for standard architecture-independent\n  locations ``INFODIR``, ``LOCALEDIR``, ``MANDIR``, and ``DOCDIR``.\n\n``INFODIR``\n  info documentation (``DATAROOTDIR/info``)\n``LOCALEDIR``\n  locale-dependent data (``DATAROOTDIR/locale``)\n``MANDIR``\n  man documentation (``DATAROOTDIR/man``)\n``DOCDIR``\n  documentation root (``DATAROOTDIR/doc/PROJECT_NAME``)\n\nIf the includer does not define a value the above-shown default will be\nused and the value will appear in the cache for editing by the user.\n\nIf a default value for the ``CMAKE_INSTALL_<dir>`` is used and the\n:variable:`CMAKE_INSTALL_PREFIX` is changed, the new default value will\nbe used calculated on the new :variable:`CMAKE_INSTALL_PREFIX` value.\nUsing :option:`--prefix <cmake--install --prefix>` in ``cmake --install``\nwill not alter these values.\n\n.. _`GNUInstallDirs special cases`:\n\nSpecial Cases\n^^^^^^^^^^^^^\n\n.. versionadded:: 3.4\n\nThe following values of :variable:`CMAKE_INSTALL_PREFIX` are special:\n\n``/``\n\n  For ``<dir>`` other than the ``SYSCONFDIR``, ``LOCALSTATEDIR`` and\n  ``RUNSTATEDIR``, the value of ``CMAKE_INSTALL_<dir>`` is prefixed\n  with ``usr/`` if it is not user-specified as an absolute path.\n  For example, the ``INCLUDEDIR`` value ``include`` becomes ``usr/include``.\n  This is required by the `GNU Coding Standards`_, which state:\n\n    When building the complete GNU system, the prefix will be empty\n    and ``/usr`` will be a symbolic link to ``/``.\n\n  .. versionchanged:: 4.1\n    The ``CMAKE_INSTALL_<dir>`` variables are cached with the ``usr/`` prefix.\n    See policy :policy:`CMP0193`.\n\n``/usr``\n\n  For ``<dir>`` equal to ``SYSCONFDIR``, ``LOCALSTATEDIR`` or\n  ``RUNSTATEDIR``, the ``CMAKE_INSTALL_FULL_<dir>`` is computed by\n  prepending just ``/`` to the value of ``CMAKE_INSTALL_<dir>``\n  if it is not already an absolute path.\n  For example, the ``SYSCONFDIR`` value ``etc`` becomes ``/etc``.\n  This is required by the `GNU Coding Standards`_.\n\n  .. versionchanged:: 4.1\n    The default values of ``CMAKE_INSTALL_<dir>`` for ``<dir>`` equal\n    to ``SYSCONFDIR``, ``LOCALSTATEDIR`` and ``RUNSTATEDIR`` are the\n    absolute paths ``/etc``, ``/var`` and ``/var/run`` respectively.\n    See policy :policy:`CMP0192`.\n\n``/opt/...``\n\n  For ``<dir>`` equal to ``SYSCONFDIR``, ``LOCALSTATEDIR`` or\n  ``RUNSTATEDIR``, the ``CMAKE_INSTALL_FULL_<dir>`` is computed by\n  *appending* the prefix to the value of ``CMAKE_INSTALL_<dir>``\n  if it is not already an absolute path.\n  For example, the ``SYSCONFDIR`` value ``etc`` becomes ``/etc/opt/...``.\n  This is defined by the `Filesystem Hierarchy Standard`_.\n\n  This behavior does not apply to paths under ``/opt/homebrew/...``.\n\n  .. versionchanged:: 4.1\n    The default values of ``CMAKE_INSTALL_<dir>`` for ``<dir>`` equal\n    to ``SYSCONFDIR``, ``LOCALSTATEDIR`` and ``RUNSTATEDIR`` are the\n    absolute paths ``/etc/opt/...``, ``/var/opt/...`` and\n    ``/var/run/opt/...`` respectively. See policy :policy:`CMP0192`.\n\n.. note::\n\n  When an alternative installation prefix is specified with the\n  :option:`--prefix <cmake--install --prefix>` option at install time,\n  these special cases are evaluated based on the configuration-time\n  :variable:`CMAKE_INSTALL_PREFIX`, not on the alternative prefix value.\n\n.. _`Filesystem Hierarchy Standard`: https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html\n\nCommands\n^^^^^^^^\n\nThis module provides the following command:\n\n.. command:: GNUInstallDirs_get_absolute_install_dir\n\n  .. versionadded:: 3.7\n\n  Computes an absolute installation path from a given relative path:\n\n  .. code-block:: cmake\n\n    GNUInstallDirs_get_absolute_install_dir(<result-var> <input-var> <dir>)\n\n  This command takes the value from the variable ``<input-var>`` and\n  computes its absolute path according to GNU standard installation\n  directories.  If the input path is relative, it is prepended with\n  :variable:`CMAKE_INSTALL_PREFIX` and may be adjusted for the\n  `special cases`_ described above.\n\n  The arguments are:\n\n  ``<result-var>``\n    Name of the variable in which to store the computed absolute path.\n\n  ``<input-var>``\n    Name of the variable containing the path that will be used to compute\n    its associated absolute installation path.\n\n    .. versionchanged:: 4.1\n      This variable is no longer altered.  See policy :policy:`CMP0193`.\n      In previous CMake versions, this command modified the ``<input-var>``\n      variable value based on the `special cases`_.\n\n  ``<dir>``\n    .. versionadded:: 3.20\n\n    The directory type name, e.g., ``SYSCONFDIR``, ``LOCALSTATEDIR``,\n    ``RUNSTATEDIR``, etc.  This argument determines whether `special cases`_\n    apply when computing the absolute path.\n\n    .. versionchanged:: 3.20\n\n      Before the ``<dir>`` argument was introduced, the directory type\n      could be specified by setting the ``dir`` variable prior to calling\n      this command.  As of CMake 3.20, if the ``<dir>`` argument is provided\n      explicitly, the ``dir`` variable is ignored.\n\n  While this command is used internally by this module to compute the\n  ``CMAKE_INSTALL_FULL_<dir>`` variables, it is also exposed publicly for\n  users to create additional custom installation path variables and compute\n  absolute paths where necessary, using the same logic.\n\nSee Also\n^^^^^^^^\n\n* The :command:`install` command.\n#"
-      },
-      {
-        "label": "_GNUInstallDirs_cache_convert_to_path",
-        "kind": 3,
-        "detail": "Function",
-        "documentation": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_cache_path",
-        "kind": 3,
-        "detail": "Function",
-        "documentation": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nCreate a cache variable with default for a path."
-      },
-      {
-        "label": "_GNUInstallDirs_cache_path_fallback",
-        "kind": 3,
-        "detail": "Function",
-        "documentation": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nDATAROOTDIR."
-      },
-      {
-        "label": "_GNUInstallDirs_get_system_type_for_install",
-        "kind": 3,
-        "detail": "Function",
-        "documentation": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nCheck what system we are on for LIBDIR formatting"
-      },
-      {
-        "label": "_GNUInstallDirs_special_absolute",
-        "kind": 3,
-        "detail": "Function",
-        "documentation": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nUsed for SYSCONFDIR, LOCALSTATEDIR and RUNSTATEDIR paths"
-      },
-      {
-        "label": "__GNUInstallDirs_default_in_root",
-        "kind": 3,
-        "detail": "Function",
-        "documentation": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\ni.e. SYSCONFDIR and LOCALSTATEDIR"
-      },
-      {
-        "label": "__GNUInstallDirs_default_in_usr",
-        "kind": 3,
-        "detail": "Function",
-        "documentation": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nCommon handler for defaults that should be in usr/<dir>"
-      },
-      {
-        "label": "_GNUInstallDirs_LIBDIR_get_default",
-        "kind": 3,
-        "detail": "Function",
-        "documentation": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_RUNSTATEDIR_get_default",
-        "kind": 3,
-        "detail": "Function",
-        "documentation": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nDepends on current CMAKE_INSTALL_LOCALSTATEDIR value"
-      },
-      {
-        "label": "GNUInstallDirs_get_absolute_install_dir",
-        "kind": 3,
-        "detail": "Function",
-        "documentation": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "cmake_install_var",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "default",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "install_prefix_is_same",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nCheck if the current CMAKE_INSTALL_PREFIX is the same as before"
-      },
-      {
-        "label": "install_prefix_is_same",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "full_description",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "full_description",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nNormal flow"
-      },
-      {
-        "label": "${cmake_install_var}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "cmake_install_var",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "default",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${cmake_install_var}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${cmake_install_var}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "conda_prefix",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${out_var}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "conda_prefix",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${out_var}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${out_var}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${out_var}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${out_var}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${out_var}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${out_var}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${out_var}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${out_var}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${out_var}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_BINDIR_DEFAULT",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nSet the standard default values before any special handling"
-      },
-      {
-        "label": "_GNUInstallDirs_SBINDIR_DEFAULT",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_LIBEXECDIR_DEFAULT",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_SYSCONFDIR_DEFAULT",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_SHAREDSTATEDIR_DEFAULT",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_LOCALSTATEDIR_DEFAULT",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_LIBDIR_DEFAULT",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_INCLUDEDIR_DEFAULT",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_OLDINCLUDEDIR_DEFAULT",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_DATAROOTDIR_DEFAULT",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${out_var}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${out_var}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${out_var}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${out_var}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_INFODIR_DEFAULT",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_INFODIR_DEFAULT",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_MANDIR_DEFAULT",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_MANDIR_DEFAULT",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_DATADIR_DEFAULT",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_LOCALEDIR_DEFAULT",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_DOCDIR_DEFAULT",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_RUNSTATEDIR_DEFAULT",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nSave for next run"
-      },
-      {
-        "label": "CMAKE_INSTALL_BINDIR",
-        "kind": 6,
-        "detail": "Variable",
-        "documentation": "defined var\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "CMAKE_INSTALL_SBINDIR",
-        "kind": 6,
-        "detail": "Variable",
-        "documentation": "defined var\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "CMAKE_INSTALL_LIBEXECDIR",
-        "kind": 6,
-        "detail": "Variable",
-        "documentation": "defined var\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "CMAKE_INSTALL_SYSCONFDIR",
-        "kind": 6,
-        "detail": "Variable",
-        "documentation": "defined var\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "CMAKE_INSTALL_SHAREDSTATEDIR",
-        "kind": 6,
-        "detail": "Variable",
-        "documentation": "defined var\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "CMAKE_INSTALL_LOCALSTATEDIR",
-        "kind": 6,
-        "detail": "Variable",
-        "documentation": "defined var\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "CMAKE_INSTALL_RUNSTATEDIR",
-        "kind": 6,
-        "detail": "Variable",
-        "documentation": "defined var\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "CMAKE_INSTALL_LIBDIR",
-        "kind": 6,
-        "detail": "Variable",
-        "documentation": "defined var\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "CMAKE_INSTALL_INCLUDEDIR",
-        "kind": 6,
-        "detail": "Variable",
-        "documentation": "defined var\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "CMAKE_INSTALL_OLDINCLUDEDIR",
-        "kind": 6,
-        "detail": "Variable",
-        "documentation": "defined var\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "CMAKE_INSTALL_DATAROOTDIR",
-        "kind": 6,
-        "detail": "Variable",
-        "documentation": "defined var\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "CMAKE_INSTALL_DATADIR",
-        "kind": 6,
-        "detail": "Variable",
-        "documentation": "defined var\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "CMAKE_INSTALL_INFODIR",
-        "kind": 6,
-        "detail": "Variable",
-        "documentation": "defined var\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "CMAKE_INSTALL_LOCALEDIR",
-        "kind": 6,
-        "detail": "Variable",
-        "documentation": "defined var\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "CMAKE_INSTALL_MANDIR",
-        "kind": 6,
-        "detail": "Variable",
-        "documentation": "defined var\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "CMAKE_INSTALL_DOCDIR",
-        "kind": 6,
-        "detail": "Variable",
-        "documentation": "defined var\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "GGAID_extra_args",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "GGAID_dir",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nHistorical behavior: use ${dir} from caller's scope"
-      },
-      {
-        "label": "${absvar}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${absvar}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${var}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${absvar}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${absvar}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "${absvar}",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
-        "label": "return_vars",
-        "kind": 12,
-        "detail": "Value",
-        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake"
-      },
-      {
         "label": "args_option",
         "kind": 12,
         "detail": "Value",
@@ -14605,6 +14029,492 @@
         "kind": 12,
         "detail": "Value",
         "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6Qml/Qt6QmlTargets.cmake\n\nCommands beyond this point should not need to know the version."
+      },
+      {
+        "label": "set_and_check",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined macro\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "check_required_components",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined macro\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "PACKAGE_PREFIX_DIR",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "${_var}",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "${_NAME}_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "find_dependency",
+        "kind": 3,
+        "detail": "Command",
+        "documentation": "defined command from CMakeFindDependencyMacro.cmake\n.rst:\nCMakeFindDependencyMacro\n------------------------\n\nThis module provides a command implemented as a macro that finds dependency\nfor a package.\n\nLoad this module in a CMake package configuration file with:\n\n.. code-block:: cmake\n  :caption: ``FooConfig.cmake`` or ``foo-config.cmake``:\n\n  include(CMakeFindDependencyMacro)\n\n.. note::\n\n  This module is designed to be used in a :ref:`Package Configuration File\n  <Config File Packages>` (``<PackageName>Config.cmake``).\n\nCommands\n^^^^^^^^\n\nThis module provides the following command:\n\n.. command:: find_dependency\n\n  The ``find_dependency()`` macro wraps a :command:`find_package` call for\n  a package dependency:\n\n  .. code-block:: cmake\n\n    find_dependency(<dep> [...])\n\n  It is designed to be used in a\n  :ref:`Package Configuration File <Config File Packages>`\n  (``<PackageName>Config.cmake``).  ``find_dependency`` forwards the correct\n  parameters for ``QUIET`` and ``REQUIRED`` which were passed to\n  the original :command:`find_package` call.  Any additional arguments\n  specified are forwarded to :command:`find_package`.\n\n  If the dependency could not be found it sets an informative diagnostic\n  message and calls :command:`return` to end processing of the calling\n  package configuration file and return to the :command:`find_package`\n  command that loaded it.\n\n  .. note::\n\n    The call to :command:`return` makes this macro unsuitable to call\n    from :ref:`Find Modules`.\n\nPackage Dependency Search Optimizations\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\nIf ``find_dependency`` is called with arguments identical to a previous\ncall in the same directory, perhaps due to diamond-shaped package\ndependencies, the underlying call to :command:`find_package` is optimized\nout.  This optimization is important to support large package dependency\ngraphs while avoiding a combinatorial explosion of repeated searches.\nHowever, the heuristic cannot account for ambient variables that\naffect package behavior, such as ``<PackageName>_USE_STATIC_LIBS``,\noffered by some packages.  Therefore package configuration files should\navoid setting such variables before their calls to ``find_dependency``.\n\n.. versionchanged:: 3.15\n  Previously, the underlying call to :command:`find_package` was always\n  optimized out if the package had already been found.  CMake 3.15\n  removed the optimization to support cases in which ``find_dependency``\n  call arguments request different components.\n\n.. versionchanged:: 3.26\n  The pre-3.15 optimization was restored, but with the above-described\n  heuristic to account for varying ``find_dependency`` call arguments.\n\n#"
+      },
+      {
+        "label": "__find_dependency_common",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined macro\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "__find_dependency_no_return",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined macro\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "find_dependency",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined macro\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "cmake_fd_quiet_arg",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "cmake_fd_quiet_arg",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "cmake_fd_required_arg",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "cmake_fd_required_arg",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "${dep}_LIBRARIES",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "package: ${dep}"
+      },
+      {
+        "label": "${dep}_INCLUDE_DIRS",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "package: ${dep}"
+      },
+      {
+        "label": "\"_CMAKE_${dep}_${cmake_fd_call_hash}_FOUND\"",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "${dep}_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "${CMAKE_FIND_PACKAGE_NAME}_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "${CMAKE_FIND_PACKAGE_NAME}_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "\"Qt6QuickControls2_FOUND\"",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "__qt_QuickControls2_targets_file_included",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "__qt_QuickControls2_always_load_private_module",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake\n\nFind the private module counterpart."
+      },
+      {
+        "label": "_qt_cmake_dir",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "__qt_use_no_default_path_for_qt_packages",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "__qt_use_no_default_path_for_qt_packages",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "Qt6QuickControls2_LIBRARIES",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake\n\nConsider using target_link_libraries(app PRIVATE Qt6QuickControls2) instead."
+      },
+      {
+        "label": "_Qt6QuickControls2_OWN_INCLUDE_DIRS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "_Qt6QuickControls2_OWN_PRIVATE_INCLUDE_DIRS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "Qt6QuickControls2_DEFINITIONS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "updated_defs",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "Qt6QuickControls2_DEFINITIONS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "Qt6QuickControls2_COMPILE_DEFINITIONS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "Qt6QuickControls2_INCLUDE_DIRS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "Qt6QuickControls2_PRIVATE_INCLUDE_DIRS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "_private_suffix",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "_private_suffix",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "Qt6QuickControls2_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "Qt6QuickControls2_NOT_FOUND_MESSAGE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake"
+      },
+      {
+        "label": "QT_DEFAULT_IMPORT_CONFIGURATION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2AdditionalTargetInfo.cmake"
+      },
+      {
+        "label": "__qt_disable_package_version_check",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersion.cmake"
+      },
+      {
+        "label": "__qt_disable_package_version_check",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersion.cmake"
+      },
+      {
+        "label": "__qt_package_version_incompatible",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersion.cmake"
+      },
+      {
+        "label": "__qt_package_version_incompatible",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersion.cmake"
+      },
+      {
+        "label": "QT_NO_PACKAGE_VERSION_INCOMPATIBLE_WARNING",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersion.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_COMPATIBLE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersion.cmake\n\nMark version as compatible. This is how we disable the version check."
+      },
+      {
+        "label": "__qt_package_version_message_prefix",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersion.cmake"
+      },
+      {
+        "label": "__qt_package_version_message_prefix",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersion.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersionImpl.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_COMPATIBLE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersionImpl.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_COMPATIBLE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersionImpl.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_COMPATIBLE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersionImpl.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_COMPATIBLE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersionImpl.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_EXACT",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersionImpl.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersionImpl.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_UNSUITABLE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2ConfigVersionImpl.cmake"
+      },
+      {
+        "label": "Qt6QuickControls2_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Dependencies.cmake\n\nMake sure Qt6 is found before anything else."
+      },
+      {
+        "label": "_qt_cmake_dir",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Dependencies.cmake"
+      },
+      {
+        "label": "__qt_use_no_default_path_for_qt_packages",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Dependencies.cmake"
+      },
+      {
+        "label": "__qt_use_no_default_path_for_qt_packages",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Dependencies.cmake"
+      },
+      {
+        "label": "${CMAKE_FIND_PACKAGE_NAME}_FIND_REQUIRED",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Dependencies.cmake\n\nset _NOT_FOUND_MESSAGE which will be displayed by the includer of the Dependencies file."
+      },
+      {
+        "label": "__qt_QuickControls2_third_party_deps",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Dependencies.cmake\n\nnote: _third_party_deps example: \"ICU\\\\;FALSE\\\\;1.0\\\\;i18n uc data;ZLIB\\\\;FALSE\\\\;\\\\;\""
+      },
+      {
+        "label": "__qt_QuickControls2_tool_deps",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Dependencies.cmake\n\nFind Qt tool package."
+      },
+      {
+        "label": "__qt_QuickControls2_target_deps",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Dependencies.cmake\n\nnote: target_deps example: \"Qt6Core\\;5.12.0;Qt6Gui\\;5.12.0\""
+      },
+      {
+        "label": "__qt_QuickControls2_find_dependency_paths",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Dependencies.cmake"
+      },
+      {
+        "label": "_Qt6QuickControls2_MODULE_DEPENDENCIES",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Dependencies.cmake"
+      },
+      {
+        "label": "Qt6QuickControls2_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Dependencies.cmake"
+      },
+      {
+        "label": "CMAKE_IMPORT_FILE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets-relwithdebinfo.cmake\n\nCommands may need to know the format version."
+      },
+      {
+        "label": "CMAKE_IMPORT_FILE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets-relwithdebinfo.cmake\n\nCommands beyond this point should not need to know the version."
+      },
+      {
+        "label": "CMAKE_IMPORT_FILE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets.cmake\n\nCommands may need to know the format version."
+      },
+      {
+        "label": "_cmake_targets_defined",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets.cmake\n\nProtect against multiple inclusion, which would fail when already imported targets are added once more."
+      },
+      {
+        "label": "_cmake_targets_not_defined",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets.cmake"
+      },
+      {
+        "label": "_cmake_expected_targets",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets.cmake"
+      },
+      {
+        "label": "_IMPORT_PREFIX",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets.cmake"
+      },
+      {
+        "label": "_IMPORT_PREFIX",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets.cmake"
+      },
+      {
+        "label": "_IMPORT_PREFIX",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets.cmake\n\nCleanup temporary variables."
+      },
+      {
+        "label": "${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE_targets",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets.cmake"
+      },
+      {
+        "label": "${CMAKE_FIND_PACKAGE_NAME}_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets.cmake"
+      },
+      {
+        "label": "${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets.cmake"
+      },
+      {
+        "label": "CMAKE_IMPORT_FILE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets.cmake\n\nCommands beyond this point should not need to know the version."
       }
     ]
   }

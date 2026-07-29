@@ -130,6 +130,214 @@ program/fast:
 .PHONY : program/fast
 
 #=============================================================================
+# Target rules for targets named program_qmltyperegistration
+
+# Build rule for target.
+program_qmltyperegistration: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 program_qmltyperegistration
+.PHONY : program_qmltyperegistration
+
+# fast build rule for target.
+program_qmltyperegistration/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program_qmltyperegistration.dir/build.make CMakeFiles/program_qmltyperegistration.dir/build
+.PHONY : program_qmltyperegistration/fast
+
+#=============================================================================
+# Target rules for targets named all_qmltyperegistrations
+
+# Build rule for target.
+all_qmltyperegistrations: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_qmltyperegistrations
+.PHONY : all_qmltyperegistrations
+
+# fast build rule for target.
+all_qmltyperegistrations/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmltyperegistrations.dir/build.make CMakeFiles/all_qmltyperegistrations.dir/build
+.PHONY : all_qmltyperegistrations/fast
+
+#=============================================================================
+# Target rules for targets named program_qmllint
+
+# Build rule for target.
+program_qmllint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 program_qmllint
+.PHONY : program_qmllint
+
+# fast build rule for target.
+program_qmllint/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program_qmllint.dir/build.make CMakeFiles/program_qmllint.dir/build
+.PHONY : program_qmllint/fast
+
+#=============================================================================
+# Target rules for targets named program_qmllint_json
+
+# Build rule for target.
+program_qmllint_json: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 program_qmllint_json
+.PHONY : program_qmllint_json
+
+# fast build rule for target.
+program_qmllint_json/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program_qmllint_json.dir/build.make CMakeFiles/program_qmllint_json.dir/build
+.PHONY : program_qmllint_json/fast
+
+#=============================================================================
+# Target rules for targets named program_qmllint_module
+
+# Build rule for target.
+program_qmllint_module: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 program_qmllint_module
+.PHONY : program_qmllint_module
+
+# fast build rule for target.
+program_qmllint_module/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program_qmllint_module.dir/build.make CMakeFiles/program_qmllint_module.dir/build
+.PHONY : program_qmllint_module/fast
+
+#=============================================================================
+# Target rules for targets named all_qmllint
+
+# Build rule for target.
+all_qmllint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_qmllint
+.PHONY : all_qmllint
+
+# fast build rule for target.
+all_qmllint/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmllint.dir/build.make CMakeFiles/all_qmllint.dir/build
+.PHONY : all_qmllint/fast
+
+#=============================================================================
+# Target rules for targets named all_qmllint_json
+
+# Build rule for target.
+all_qmllint_json: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_qmllint_json
+.PHONY : all_qmllint_json
+
+# fast build rule for target.
+all_qmllint_json/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmllint_json.dir/build.make CMakeFiles/all_qmllint_json.dir/build
+.PHONY : all_qmllint_json/fast
+
+#=============================================================================
+# Target rules for targets named all_qmllint_module
+
+# Build rule for target.
+all_qmllint_module: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_qmllint_module
+.PHONY : all_qmllint_module
+
+# fast build rule for target.
+all_qmllint_module/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmllint_module.dir/build.make CMakeFiles/all_qmllint_module.dir/build
+.PHONY : all_qmllint_module/fast
+
+#=============================================================================
+# Target rules for targets named dump_qml_context_properties
+
+# Build rule for target.
+dump_qml_context_properties: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dump_qml_context_properties
+.PHONY : dump_qml_context_properties
+
+# fast build rule for target.
+dump_qml_context_properties/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_qml_context_properties.dir/build.make CMakeFiles/dump_qml_context_properties.dir/build
+.PHONY : dump_qml_context_properties/fast
+
+#=============================================================================
+# Target rules for targets named clean_qml_context_properties
+
+# Build rule for target.
+clean_qml_context_properties: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean_qml_context_properties
+.PHONY : clean_qml_context_properties
+
+# fast build rule for target.
+clean_qml_context_properties/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_qml_context_properties.dir/build.make CMakeFiles/clean_qml_context_properties.dir/build
+.PHONY : clean_qml_context_properties/fast
+
+#=============================================================================
+# Target rules for targets named program_copy_qml
+
+# Build rule for target.
+program_copy_qml: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 program_copy_qml
+.PHONY : program_copy_qml
+
+# fast build rule for target.
+program_copy_qml/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program_copy_qml.dir/build.make CMakeFiles/program_copy_qml.dir/build
+.PHONY : program_copy_qml/fast
+
+#=============================================================================
+# Target rules for targets named program_copy_res
+
+# Build rule for target.
+program_copy_res: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 program_copy_res
+.PHONY : program_copy_res
+
+# fast build rule for target.
+program_copy_res/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program_copy_res.dir/build.make CMakeFiles/program_copy_res.dir/build
+.PHONY : program_copy_res/fast
+
+#=============================================================================
+# Target rules for targets named generate_qmlls_build_ini_file
+
+# Build rule for target.
+generate_qmlls_build_ini_file: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 generate_qmlls_build_ini_file
+.PHONY : generate_qmlls_build_ini_file
+
+# fast build rule for target.
+generate_qmlls_build_ini_file/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_qmlls_build_ini_file.dir/build.make CMakeFiles/generate_qmlls_build_ini_file.dir/build
+.PHONY : generate_qmlls_build_ini_file/fast
+
+#=============================================================================
+# Target rules for targets named module_program_aotstats_target
+
+# Build rule for target.
+module_program_aotstats_target: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 module_program_aotstats_target
+.PHONY : module_program_aotstats_target
+
+# fast build rule for target.
+module_program_aotstats_target/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/module_program_aotstats_target.dir/build.make CMakeFiles/module_program_aotstats_target.dir/build
+.PHONY : module_program_aotstats_target/fast
+
+#=============================================================================
+# Target rules for targets named all_aotstats
+
+# Build rule for target.
+all_aotstats: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_aotstats
+.PHONY : all_aotstats
+
+# fast build rule for target.
+all_aotstats/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_aotstats.dir/build.make CMakeFiles/all_aotstats.dir/build
+.PHONY : all_aotstats/fast
+
+#=============================================================================
+# Target rules for targets named program_qmlimportscan
+
+# Build rule for target.
+program_qmlimportscan: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 program_qmlimportscan
+.PHONY : program_qmlimportscan
+
+# fast build rule for target.
+program_qmlimportscan/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program_qmlimportscan.dir/build.make CMakeFiles/program_qmlimportscan.dir/build
+.PHONY : program_qmlimportscan/fast
+
+#=============================================================================
 # Target rules for targets named program_autogen_timestamp_deps
 
 # Build rule for target.
@@ -155,6 +363,102 @@ program_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/program_autogen.dir/build.make CMakeFiles/program_autogen.dir/build
 .PHONY : program_autogen/fast
 
+build/.qt/rcc/qrc_program_raw_qml_0.o: build/.qt/rcc/qrc_program_raw_qml_0.cpp.o
+.PHONY : build/.qt/rcc/qrc_program_raw_qml_0.o
+
+# target to build an object file
+build/.qt/rcc/qrc_program_raw_qml_0.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.o
+.PHONY : build/.qt/rcc/qrc_program_raw_qml_0.cpp.o
+
+build/.qt/rcc/qrc_program_raw_qml_0.i: build/.qt/rcc/qrc_program_raw_qml_0.cpp.i
+.PHONY : build/.qt/rcc/qrc_program_raw_qml_0.i
+
+# target to preprocess a source file
+build/.qt/rcc/qrc_program_raw_qml_0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.i
+.PHONY : build/.qt/rcc/qrc_program_raw_qml_0.cpp.i
+
+build/.qt/rcc/qrc_program_raw_qml_0.s: build/.qt/rcc/qrc_program_raw_qml_0.cpp.s
+.PHONY : build/.qt/rcc/qrc_program_raw_qml_0.s
+
+# target to generate assembly for a file
+build/.qt/rcc/qrc_program_raw_qml_0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.s
+.PHONY : build/.qt/rcc/qrc_program_raw_qml_0.cpp.s
+
+build/.qt/rcc/qrc_qmake_PomodoroApp.o: build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.o
+.PHONY : build/.qt/rcc/qrc_qmake_PomodoroApp.o
+
+# target to build an object file
+build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.o
+.PHONY : build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.o
+
+build/.qt/rcc/qrc_qmake_PomodoroApp.i: build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.i
+.PHONY : build/.qt/rcc/qrc_qmake_PomodoroApp.i
+
+# target to preprocess a source file
+build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.i
+.PHONY : build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.i
+
+build/.qt/rcc/qrc_qmake_PomodoroApp.s: build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.s
+.PHONY : build/.qt/rcc/qrc_qmake_PomodoroApp.s
+
+# target to generate assembly for a file
+build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.s
+.PHONY : build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.s
+
+build/.rcc/qmlcache/program_qml/Main_qml.o: build/.rcc/qmlcache/program_qml/Main_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/program_qml/Main_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/program_qml/Main_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/build/.rcc/qmlcache/program_qml/Main_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/program_qml/Main_qml.cpp.o
+
+build/.rcc/qmlcache/program_qml/Main_qml.i: build/.rcc/qmlcache/program_qml/Main_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/program_qml/Main_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/program_qml/Main_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/build/.rcc/qmlcache/program_qml/Main_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/program_qml/Main_qml.cpp.i
+
+build/.rcc/qmlcache/program_qml/Main_qml.s: build/.rcc/qmlcache/program_qml/Main_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/program_qml/Main_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/program_qml/Main_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/build/.rcc/qmlcache/program_qml/Main_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/program_qml/Main_qml.cpp.s
+
+build/.rcc/qmlcache/program_qmlcache_loader.o: build/.rcc/qmlcache/program_qmlcache_loader.cpp.o
+.PHONY : build/.rcc/qmlcache/program_qmlcache_loader.o
+
+# target to build an object file
+build/.rcc/qmlcache/program_qmlcache_loader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/build/.rcc/qmlcache/program_qmlcache_loader.cpp.o
+.PHONY : build/.rcc/qmlcache/program_qmlcache_loader.cpp.o
+
+build/.rcc/qmlcache/program_qmlcache_loader.i: build/.rcc/qmlcache/program_qmlcache_loader.cpp.i
+.PHONY : build/.rcc/qmlcache/program_qmlcache_loader.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/program_qmlcache_loader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/build/.rcc/qmlcache/program_qmlcache_loader.cpp.i
+.PHONY : build/.rcc/qmlcache/program_qmlcache_loader.cpp.i
+
+build/.rcc/qmlcache/program_qmlcache_loader.s: build/.rcc/qmlcache/program_qmlcache_loader.cpp.s
+.PHONY : build/.rcc/qmlcache/program_qmlcache_loader.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/program_qmlcache_loader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/build/.rcc/qmlcache/program_qmlcache_loader.cpp.s
+.PHONY : build/.rcc/qmlcache/program_qmlcache_loader.cpp.s
+
 program_autogen/mocs_compilation.o: program_autogen/mocs_compilation.cpp.o
 .PHONY : program_autogen/mocs_compilation.o
 
@@ -178,6 +482,30 @@ program_autogen/mocs_compilation.s: program_autogen/mocs_compilation.cpp.s
 program_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.s
 .PHONY : program_autogen/mocs_compilation.cpp.s
+
+program_qmltyperegistrations.o: program_qmltyperegistrations.cpp.o
+.PHONY : program_qmltyperegistrations.o
+
+# target to build an object file
+program_qmltyperegistrations.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/program_qmltyperegistrations.cpp.o
+.PHONY : program_qmltyperegistrations.cpp.o
+
+program_qmltyperegistrations.i: program_qmltyperegistrations.cpp.i
+.PHONY : program_qmltyperegistrations.i
+
+# target to preprocess a source file
+program_qmltyperegistrations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/program_qmltyperegistrations.cpp.i
+.PHONY : program_qmltyperegistrations.cpp.i
+
+program_qmltyperegistrations.s: program_qmltyperegistrations.cpp.s
+.PHONY : program_qmltyperegistrations.s
+
+# target to generate assembly for a file
+program_qmltyperegistrations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/program_qmltyperegistrations.cpp.s
+.PHONY : program_qmltyperegistrations.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -203,29 +531,29 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/widget.o: src/widget.cpp.o
-.PHONY : src/widget.o
+src/timer.o: src/timer.cpp.o
+.PHONY : src/timer.o
 
 # target to build an object file
-src/widget.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/widget.cpp.o
-.PHONY : src/widget.cpp.o
+src/timer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/timer.cpp.o
+.PHONY : src/timer.cpp.o
 
-src/widget.i: src/widget.cpp.i
-.PHONY : src/widget.i
+src/timer.i: src/timer.cpp.i
+.PHONY : src/timer.i
 
 # target to preprocess a source file
-src/widget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/widget.cpp.i
-.PHONY : src/widget.cpp.i
+src/timer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/timer.cpp.i
+.PHONY : src/timer.cpp.i
 
-src/widget.s: src/widget.cpp.s
-.PHONY : src/widget.s
+src/timer.s: src/timer.cpp.s
+.PHONY : src/timer.s
 
 # target to generate assembly for a file
-src/widget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/widget.cpp.s
-.PHONY : src/widget.cpp.s
+src/timer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/timer.cpp.s
+.PHONY : src/timer.cpp.s
 
 # Help Target
 help:
@@ -235,18 +563,49 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... all_aotstats"
+	@echo "... all_qmllint"
+	@echo "... all_qmllint_json"
+	@echo "... all_qmllint_module"
+	@echo "... all_qmltyperegistrations"
+	@echo "... clean_qml_context_properties"
+	@echo "... dump_qml_context_properties"
+	@echo "... generate_qmlls_build_ini_file"
+	@echo "... module_program_aotstats_target"
 	@echo "... program_autogen"
 	@echo "... program_autogen_timestamp_deps"
+	@echo "... program_copy_qml"
+	@echo "... program_copy_res"
+	@echo "... program_qmlimportscan"
+	@echo "... program_qmllint"
+	@echo "... program_qmllint_json"
+	@echo "... program_qmllint_module"
+	@echo "... program_qmltyperegistration"
 	@echo "... program"
+	@echo "... build/.qt/rcc/qrc_program_raw_qml_0.o"
+	@echo "... build/.qt/rcc/qrc_program_raw_qml_0.i"
+	@echo "... build/.qt/rcc/qrc_program_raw_qml_0.s"
+	@echo "... build/.qt/rcc/qrc_qmake_PomodoroApp.o"
+	@echo "... build/.qt/rcc/qrc_qmake_PomodoroApp.i"
+	@echo "... build/.qt/rcc/qrc_qmake_PomodoroApp.s"
+	@echo "... build/.rcc/qmlcache/program_qml/Main_qml.o"
+	@echo "... build/.rcc/qmlcache/program_qml/Main_qml.i"
+	@echo "... build/.rcc/qmlcache/program_qml/Main_qml.s"
+	@echo "... build/.rcc/qmlcache/program_qmlcache_loader.o"
+	@echo "... build/.rcc/qmlcache/program_qmlcache_loader.i"
+	@echo "... build/.rcc/qmlcache/program_qmlcache_loader.s"
 	@echo "... program_autogen/mocs_compilation.o"
 	@echo "... program_autogen/mocs_compilation.i"
 	@echo "... program_autogen/mocs_compilation.s"
+	@echo "... program_qmltyperegistrations.o"
+	@echo "... program_qmltyperegistrations.i"
+	@echo "... program_qmltyperegistrations.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/widget.o"
-	@echo "... src/widget.i"
-	@echo "... src/widget.s"
+	@echo "... src/timer.o"
+	@echo "... src/timer.i"
+	@echo "... src/timer.s"
 .PHONY : help
 
 

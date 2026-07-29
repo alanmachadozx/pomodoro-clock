@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/PomodoroApp">/home/alan/Documentos/pomodoro-clock/build/PomodoroApp</file>
+
+  </qresource>
+</RCC>

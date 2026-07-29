@@ -1,0 +1,14 @@
+--bare
+-I
+/home/alan/Documentos/pomodoro-clock/build
+-I
+/home/alan/Documentos/pomodoro-clock/build/PomodoroApp
+-I
+/home/alan/Documentos/pomodoro-clock/build
+-I
+/usr/lib/qt6/qml
+--resource
+/home/alan/Documentos/pomodoro-clock/build/.qt/rcc/qmake_PomodoroApp.qrc
+--resource
+/home/alan/Documentos/pomodoro-clock/build/.qt/rcc/program_raw_qml_0.qrc
+/home/alan/Documentos/pomodoro-clock/qml/Main.qml

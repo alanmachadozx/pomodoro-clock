@@ -2,7 +2,10 @@ CMakeFiles/program.dir/src/main.cpp.o: \
  /home/alan/Documentos/pomodoro-clock/src/main.cpp \
  /usr/include/stdc-predef.h \
  /home/alan/Documentos/pomodoro-clock/src/../include/main.hpp \
- /usr/include/qt6/QtCore/qtmetamacros.h /usr/include/qt6/QtCore/qglobal.h \
+ /usr/include/qt6/QtWidgets/QApplication \
+ /usr/include/qt6/QtWidgets/qapplication.h \
+ /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
+ /usr/include/qt6/QtGui/qtguiglobal.h /usr/include/qt6/QtCore/qglobal.h \
  /usr/include/c++/16/type_traits \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -140,10 +143,6 @@ CMakeFiles/program.dir/src/main.cpp.o: \
  /usr/include/qt6/QtCore/qtresource.h \
  /usr/include/qt6/QtCore/qttranslation.h \
  /usr/include/qt6/QtCore/qversiontagging.h \
- /usr/include/qt6/QtWidgets/QApplication \
- /usr/include/qt6/QtWidgets/qapplication.h \
- /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
- /usr/include/qt6/QtGui/qtguiglobal.h \
  /usr/include/qt6/QtGui/qtgui-config.h \
  /usr/include/qt6/QtGui/qtguiexports.h \
  /usr/include/qt6/QtWidgets/qtwidgets-config.h \
@@ -334,8 +333,41 @@ CMakeFiles/program.dir/src/main.cpp.o: \
  /usr/include/qt6/QtCore/qvarlengtharray.h \
  /usr/include/qt6/QtCore/qalloc.h \
  /usr/include/qt6/QtGui/qguiapplication_platform.h \
- /usr/include/qt6/QtCore/QDebug /usr/include/qt6/QtCore/QTime \
+ /home/alan/Documentos/pomodoro-clock/src/../include/timer.hpp \
+ /usr/include/qt6/QtQml/QQmlApplicationEngine \
+ /usr/include/qt6/QtQml/qqmlapplicationengine.h \
+ /usr/include/qt6/QtQml/qqmlengine.h /usr/include/qt6/QtCore/qurl.h \
+ /usr/include/qt6/QtQml/qjsengine.h /usr/include/qt6/QtCore/qtimezone.h \
  /usr/include/qt6/QtCore/qdatetime.h /usr/include/qt6/QtCore/qcalendar.h \
+ /usr/include/qt6/QtQml/qjsvalue.h /usr/include/qt6/QtQml/qtqmlglobal.h \
+ /usr/include/qt6/QtQml/qtqml-config.h \
+ /usr/include/qt6/QtNetwork/qtnetworkglobal.h \
+ /usr/include/qt6/QtNetwork/qtnetwork-config.h \
+ /usr/include/qt6/QtNetwork/qtnetworkexports.h \
+ /usr/include/qt6/QtQml/qtqmlexports.h \
+ /usr/include/qt6/QtQml/qjsmanagedvalue.h \
+ /usr/include/qt6/QtQml/qjsprimitivevalue.h \
+ /usr/include/qt6/QtQml/qjsnumbercoercion.h \
+ /usr/include/qt6/QtQml/qqmldebug.h /usr/include/qt6/QtQml/qqml.h \
+ /usr/include/qt6/QtQml/qqmlprivate.h /usr/include/qt6/QtQml/qqmllist.h \
+ /usr/include/qt6/QtQml/qqmlparserstatus.h \
+ /usr/include/qt6/QtQml/qqmlpropertyvaluesource.h \
+ /usr/include/qt6/QtCore/qmetasequence.h \
+ /usr/include/qt6/QtCore/qiterable_impl.h \
+ /usr/include/qt6/QtCore/qmetaobject.h /usr/include/qt6/QtCore/qpointer.h \
+ /usr/include/qt6/QtCore/qtyperevision.h \
+ /usr/include/qt6/QtCore/qversionnumber.h \
+ /usr/include/qt6/QtQml/qqmlregistration.h \
+ /usr/include/qt6/QtQmlIntegration/qqmlintegration.h \
+ /usr/include/qt6/QtQml/qqmlerror.h \
+ /usr/include/qt6/QtQml/qqmlabstracturlinterceptor.h \
+ /usr/include/qt6/QtQml/qqmlapplicationengine.h \
+ /usr/include/qt6/QtWidgets/QVBoxLayout \
+ /usr/include/qt6/QtWidgets/qboxlayout.h \
+ /usr/include/qt6/QtWidgets/qlayout.h \
+ /usr/include/qt6/QtWidgets/qlayoutitem.h \
+ /usr/include/qt6/QtWidgets/qsizepolicy.h \
+ /usr/include/qt6/QtWidgets/qgridlayout.h \
  /usr/include/qt6/QtWidgets/QWidget /usr/include/qt6/QtWidgets/qwidget.h \
  /usr/include/qt6/QtGui/qaction.h /usr/include/qt6/QtGui/qkeysequence.h \
  /usr/include/qt6/QtGui/qicon.h /usr/include/qt6/QtGui/qpalette.h \
@@ -343,8 +375,5 @@ CMakeFiles/program.dir/src/main.cpp.o: \
  /usr/include/qt6/QtCore/qendian.h /usr/include/qt6/QtGui/qfontmetrics.h \
  /usr/include/qt6/QtGui/qfontinfo.h \
  /usr/include/qt6/QtGui/qfontvariableaxis.h \
- /usr/include/qt6/QtWidgets/qsizepolicy.h \
- /usr/include/qt6/QtCore/qdatetime.h /usr/include/qt6/QtCore/qlogging.h \
- /usr/include/qt6/QtCore/qobject.h /usr/include/qt6/QtCore/QTimer \
- /usr/include/qt6/QtCore/qtimer.h /usr/include/qt6/QtWidgets/qwidget.h \
- /home/alan/Documentos/pomodoro-clock/src/../include/widget.hpp
+ /usr/include/qt6/QtWidgets/qboxlayout.h \
+ /usr/include/qt6/QtWidgets/qwidget.h /usr/include/qt6/QtCore/QUrl

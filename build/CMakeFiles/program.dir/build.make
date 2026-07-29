@@ -69,11 +69,77 @@ include CMakeFiles/program.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/program.dir/flags.make
 
+meta_types/qt6program_metatypes.json.gen: /usr/lib/qt6/moc
+meta_types/qt6program_metatypes.json.gen: meta_types/program_json_file_list.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running moc --collect-json for target program"
+	/usr/lib/qt6/moc -o /home/alan/Documentos/pomodoro-clock/build/meta_types/qt6program_metatypes.json.gen --collect-json @/home/alan/Documentos/pomodoro-clock/build/meta_types/program_json_file_list.txt
+	/usr/bin/cmake -E copy_if_different /home/alan/Documentos/pomodoro-clock/build/meta_types/qt6program_metatypes.json.gen /home/alan/Documentos/pomodoro-clock/build/meta_types/qt6program_metatypes.json
+
+program_qmltyperegistrations.cpp: qmltypes/program_foreign_types.txt
+program_qmltyperegistrations.cpp: meta_types/qt6program_metatypes.json
+program_qmltyperegistrations.cpp: /usr/lib/qt6/qmltyperegistrar
+program_qmltyperegistrations.cpp: /usr/lib/qt6/metatypes/qt6core_metatypes.json
+program_qmltyperegistrations.cpp: /usr/lib/qt6/metatypes/qt6qml_metatypes.json
+program_qmltyperegistrations.cpp: /usr/lib/qt6/metatypes/qt6network_metatypes.json
+program_qmltyperegistrations.cpp: /usr/lib/qt6/metatypes/qt6gui_metatypes.json
+program_qmltyperegistrations.cpp: /usr/lib/qt6/metatypes/qt6widgets_metatypes.json
+program_qmltyperegistrations.cpp: /usr/lib/qt6/metatypes/qt6quick_metatypes.json
+program_qmltyperegistrations.cpp: /usr/lib/qt6/metatypes/qt6opengl_metatypes.json
+program_qmltyperegistrations.cpp: /usr/lib/qt6/metatypes/qt6quickcontrols2_metatypes.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic QML type registration for target program"
+	/usr/lib/qt6/qmltyperegistrar --generate-qmltypes=/home/alan/Documentos/pomodoro-clock/build/PomodoroApp/program.qmltypes --import-name=PomodoroApp --major-version=1 --minor-version=0 @/home/alan/Documentos/pomodoro-clock/build/qmltypes/program_foreign_types.txt -o /home/alan/Documentos/pomodoro-clock/build/program_qmltyperegistrations.cpp /home/alan/Documentos/pomodoro-clock/build/meta_types/qt6program_metatypes.json
+	/usr/bin/cmake -E make_directory /home/alan/Documentos/pomodoro-clock/build/.qt/qmltypes
+	/usr/bin/cmake -E touch /home/alan/Documentos/pomodoro-clock/build/.qt/qmltypes/program.qmltypes
+
+PomodoroApp/program.qmltypes: program_qmltyperegistrations.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate PomodoroApp/program.qmltypes
+
+.qt/rcc/qrc_qmake_PomodoroApp.cpp: PomodoroApp/qmldir
+.qt/rcc/qrc_qmake_PomodoroApp.cpp: .qt/rcc/qmake_PomodoroApp.qrc
+.qt/rcc/qrc_qmake_PomodoroApp.cpp: /usr/lib/qt6/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running rcc for resource qmake_PomodoroApp"
+	/usr/lib/qt6/rcc --output /home/alan/Documentos/pomodoro-clock/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp --name qmake_PomodoroApp /home/alan/Documentos/pomodoro-clock/build/.qt/rcc/qmake_PomodoroApp.qrc
+
+.rcc/qmlcache/program_qmlcache_loader.cpp: /usr/lib/qt6/qmlcachegen
+.rcc/qmlcache/program_qmlcache_loader.cpp: .rcc/qmlcache/program_qml_loader_file_list.rsp
+.rcc/qmlcache/program_qmlcache_loader.cpp: .qt/rcc/qmake_PomodoroApp.qrc
+.rcc/qmlcache/program_qmlcache_loader.cpp: .qt/rcc/program_raw_qml_0.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/program_qmlcache_loader.cpp"
+	/usr/lib/qt6/qmlcachegen --resource-name qmlcache_program -o /home/alan/Documentos/pomodoro-clock/build/.rcc/qmlcache/program_qmlcache_loader.cpp @/home/alan/Documentos/pomodoro-clock/build/.rcc/qmlcache/program_qml_loader_file_list.rsp
+
+.rcc/qmlcache/program_qml/Main_qml.cpp: /usr/lib/qt6/qmlcachegen
+.rcc/qmlcache/program_qml/Main_qml.cpp: /home/alan/Documentos/pomodoro-clock/qml/Main.qml
+.rcc/qmlcache/program_qml/Main_qml.cpp: .qt/rcc/qmake_PomodoroApp.qrc
+.rcc/qmlcache/program_qml/Main_qml.cpp: .qt/rcc/program_raw_qml_0.qrc
+.rcc/qmlcache/program_qml/Main_qml.cpp: PomodoroApp/program.qmltypes
+.rcc/qmlcache/program_qml/Main_qml.cpp: PomodoroApp/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/program_qml/Main_qml.cpp, .rcc/qmlcache/program_qml/Main_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/alan/Documentos/pomodoro-clock/build/.rcc/qmlcache/program_qml
+	/usr/lib/qt6/qmlcachegen --bare --resource-path /PomodoroApp/qml/Main.qml -I /home/alan/Documentos/pomodoro-clock/build -I /usr/lib/qt6/qml -i /home/alan/Documentos/pomodoro-clock/build/PomodoroApp/qmldir --resource /home/alan/Documentos/pomodoro-clock/build/.qt/rcc/qmake_PomodoroApp.qrc --resource /home/alan/Documentos/pomodoro-clock/build/.qt/rcc/program_raw_qml_0.qrc --dump-aot-stats "--module-id=PomodoroApp(program)" -o /home/alan/Documentos/pomodoro-clock/build/.rcc/qmlcache/program_qml/Main_qml.cpp /home/alan/Documentos/pomodoro-clock/qml/Main.qml
+
+.rcc/qmlcache/program_qml/Main_qml.cpp.aotstats: .rcc/qmlcache/program_qml/Main_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/program_qml/Main_qml.cpp.aotstats
+
+.qt/rcc/qrc_program_raw_qml_0.cpp: /home/alan/Documentos/pomodoro-clock/qml/Main.qml
+.qt/rcc/qrc_program_raw_qml_0.cpp: .qt/rcc/program_raw_qml_0.qrc
+.qt/rcc/qrc_program_raw_qml_0.cpp: /usr/lib/qt6/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running rcc for resource program_raw_qml_0"
+	/usr/lib/qt6/rcc --output /home/alan/Documentos/pomodoro-clock/build/.qt/rcc/qrc_program_raw_qml_0.cpp --name program_raw_qml_0 /home/alan/Documentos/pomodoro-clock/build/.qt/rcc/program_raw_qml_0.qrc
+
 program_autogen/timestamp: /usr/lib/qt6/moc
 program_autogen/timestamp: CMakeFiles/program.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target program"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Automatic MOC for target program"
 	/usr/bin/cmake -E cmake_autogen /home/alan/Documentos/pomodoro-clock/build/CMakeFiles/program_autogen.dir/AutogenInfo.json ""
 	/usr/bin/cmake -E touch /home/alan/Documentos/pomodoro-clock/build/program_autogen/timestamp
+
+meta_types/program_json_file_list.txt: /usr/lib/qt6/cmake_automoc_parser
+meta_types/program_json_file_list.txt: program_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Running AUTOMOC file extraction for target program"
+	/usr/lib/qt6/cmake_automoc_parser --cmake-autogen-cache-file /home/alan/Documentos/pomodoro-clock/build/CMakeFiles/program_autogen.dir/ParseCache.txt --cmake-autogen-info-file /home/alan/Documentos/pomodoro-clock/build/CMakeFiles/program_autogen.dir/AutogenInfo.json --output-file-path /home/alan/Documentos/pomodoro-clock/build/meta_types/program_json_file_list.txt --timestamp-file-path /home/alan/Documentos/pomodoro-clock/build/meta_types/program_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /home/alan/Documentos/pomodoro-clock/build/program_autogen/include
+
+meta_types/qt6program_metatypes.json: meta_types/qt6program_metatypes.json.gen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating meta_types/qt6program_metatypes.json"
+	/usr/bin/cmake -E true
 
 CMakeFiles/program.dir/codegen:
 .PHONY : CMakeFiles/program.dir/codegen
@@ -81,7 +147,7 @@ CMakeFiles/program.dir/codegen:
 CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o: program_autogen/mocs_compilation.cpp
 CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o: CMakeFiles/program.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o -MF CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o -c /home/alan/Documentos/pomodoro-clock/build/program_autogen/mocs_compilation.cpp
 
 CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.i: cmake_force
@@ -95,7 +161,7 @@ CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.s: cmake_force
 CMakeFiles/program.dir/src/main.cpp.o: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/main.cpp.o: /home/alan/Documentos/pomodoro-clock/src/main.cpp
 CMakeFiles/program.dir/src/main.cpp.o: CMakeFiles/program.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/program.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/program.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/main.cpp.o -MF CMakeFiles/program.dir/src/main.cpp.o.d -o CMakeFiles/program.dir/src/main.cpp.o -c /home/alan/Documentos/pomodoro-clock/src/main.cpp
 
 CMakeFiles/program.dir/src/main.cpp.i: cmake_force
@@ -106,36 +172,116 @@ CMakeFiles/program.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alan/Documentos/pomodoro-clock/src/main.cpp -o CMakeFiles/program.dir/src/main.cpp.s
 
-CMakeFiles/program.dir/src/widget.cpp.o: CMakeFiles/program.dir/flags.make
-CMakeFiles/program.dir/src/widget.cpp.o: /home/alan/Documentos/pomodoro-clock/src/widget.cpp
-CMakeFiles/program.dir/src/widget.cpp.o: CMakeFiles/program.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/program.dir/src/widget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/widget.cpp.o -MF CMakeFiles/program.dir/src/widget.cpp.o.d -o CMakeFiles/program.dir/src/widget.cpp.o -c /home/alan/Documentos/pomodoro-clock/src/widget.cpp
+CMakeFiles/program.dir/src/timer.cpp.o: CMakeFiles/program.dir/flags.make
+CMakeFiles/program.dir/src/timer.cpp.o: /home/alan/Documentos/pomodoro-clock/src/timer.cpp
+CMakeFiles/program.dir/src/timer.cpp.o: CMakeFiles/program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/program.dir/src/timer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/timer.cpp.o -MF CMakeFiles/program.dir/src/timer.cpp.o.d -o CMakeFiles/program.dir/src/timer.cpp.o -c /home/alan/Documentos/pomodoro-clock/src/timer.cpp
 
-CMakeFiles/program.dir/src/widget.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/widget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alan/Documentos/pomodoro-clock/src/widget.cpp > CMakeFiles/program.dir/src/widget.cpp.i
+CMakeFiles/program.dir/src/timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/timer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alan/Documentos/pomodoro-clock/src/timer.cpp > CMakeFiles/program.dir/src/timer.cpp.i
 
-CMakeFiles/program.dir/src/widget.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/widget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alan/Documentos/pomodoro-clock/src/widget.cpp -o CMakeFiles/program.dir/src/widget.cpp.s
+CMakeFiles/program.dir/src/timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/timer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alan/Documentos/pomodoro-clock/src/timer.cpp -o CMakeFiles/program.dir/src/timer.cpp.s
+
+CMakeFiles/program.dir/program_qmltyperegistrations.cpp.o: CMakeFiles/program.dir/flags.make
+CMakeFiles/program.dir/program_qmltyperegistrations.cpp.o: program_qmltyperegistrations.cpp
+CMakeFiles/program.dir/program_qmltyperegistrations.cpp.o: CMakeFiles/program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/program.dir/program_qmltyperegistrations.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/program_qmltyperegistrations.cpp.o -MF CMakeFiles/program.dir/program_qmltyperegistrations.cpp.o.d -o CMakeFiles/program.dir/program_qmltyperegistrations.cpp.o -c /home/alan/Documentos/pomodoro-clock/build/program_qmltyperegistrations.cpp
+
+CMakeFiles/program.dir/program_qmltyperegistrations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/program_qmltyperegistrations.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alan/Documentos/pomodoro-clock/build/program_qmltyperegistrations.cpp > CMakeFiles/program.dir/program_qmltyperegistrations.cpp.i
+
+CMakeFiles/program.dir/program_qmltyperegistrations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/program_qmltyperegistrations.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alan/Documentos/pomodoro-clock/build/program_qmltyperegistrations.cpp -o CMakeFiles/program.dir/program_qmltyperegistrations.cpp.s
+
+CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.o: CMakeFiles/program.dir/flags.make
+CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.o: .qt/rcc/qrc_qmake_PomodoroApp.cpp
+CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.o: CMakeFiles/program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.o -MF CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.o.d -o CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.o -c /home/alan/Documentos/pomodoro-clock/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp
+
+CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alan/Documentos/pomodoro-clock/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp > CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.i
+
+CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alan/Documentos/pomodoro-clock/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp -o CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.s
+
+CMakeFiles/program.dir/build/.rcc/qmlcache/program_qmlcache_loader.cpp.o: CMakeFiles/program.dir/flags.make
+CMakeFiles/program.dir/build/.rcc/qmlcache/program_qmlcache_loader.cpp.o: .rcc/qmlcache/program_qmlcache_loader.cpp
+CMakeFiles/program.dir/build/.rcc/qmlcache/program_qmlcache_loader.cpp.o: CMakeFiles/program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/program.dir/build/.rcc/qmlcache/program_qmlcache_loader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/build/.rcc/qmlcache/program_qmlcache_loader.cpp.o -MF CMakeFiles/program.dir/build/.rcc/qmlcache/program_qmlcache_loader.cpp.o.d -o CMakeFiles/program.dir/build/.rcc/qmlcache/program_qmlcache_loader.cpp.o -c /home/alan/Documentos/pomodoro-clock/build/.rcc/qmlcache/program_qmlcache_loader.cpp
+
+CMakeFiles/program.dir/build/.rcc/qmlcache/program_qmlcache_loader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/build/.rcc/qmlcache/program_qmlcache_loader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alan/Documentos/pomodoro-clock/build/.rcc/qmlcache/program_qmlcache_loader.cpp > CMakeFiles/program.dir/build/.rcc/qmlcache/program_qmlcache_loader.cpp.i
+
+CMakeFiles/program.dir/build/.rcc/qmlcache/program_qmlcache_loader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/build/.rcc/qmlcache/program_qmlcache_loader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alan/Documentos/pomodoro-clock/build/.rcc/qmlcache/program_qmlcache_loader.cpp -o CMakeFiles/program.dir/build/.rcc/qmlcache/program_qmlcache_loader.cpp.s
+
+CMakeFiles/program.dir/build/.rcc/qmlcache/program_qml/Main_qml.cpp.o: CMakeFiles/program.dir/flags.make
+CMakeFiles/program.dir/build/.rcc/qmlcache/program_qml/Main_qml.cpp.o: .rcc/qmlcache/program_qml/Main_qml.cpp
+CMakeFiles/program.dir/build/.rcc/qmlcache/program_qml/Main_qml.cpp.o: CMakeFiles/program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/program.dir/build/.rcc/qmlcache/program_qml/Main_qml.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/build/.rcc/qmlcache/program_qml/Main_qml.cpp.o -MF CMakeFiles/program.dir/build/.rcc/qmlcache/program_qml/Main_qml.cpp.o.d -o CMakeFiles/program.dir/build/.rcc/qmlcache/program_qml/Main_qml.cpp.o -c /home/alan/Documentos/pomodoro-clock/build/.rcc/qmlcache/program_qml/Main_qml.cpp
+
+CMakeFiles/program.dir/build/.rcc/qmlcache/program_qml/Main_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/build/.rcc/qmlcache/program_qml/Main_qml.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alan/Documentos/pomodoro-clock/build/.rcc/qmlcache/program_qml/Main_qml.cpp > CMakeFiles/program.dir/build/.rcc/qmlcache/program_qml/Main_qml.cpp.i
+
+CMakeFiles/program.dir/build/.rcc/qmlcache/program_qml/Main_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/build/.rcc/qmlcache/program_qml/Main_qml.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alan/Documentos/pomodoro-clock/build/.rcc/qmlcache/program_qml/Main_qml.cpp -o CMakeFiles/program.dir/build/.rcc/qmlcache/program_qml/Main_qml.cpp.s
+
+CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.o: CMakeFiles/program.dir/flags.make
+CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.o: .qt/rcc/qrc_program_raw_qml_0.cpp
+CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.o: CMakeFiles/program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.o -MF CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.o.d -o CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.o -c /home/alan/Documentos/pomodoro-clock/build/.qt/rcc/qrc_program_raw_qml_0.cpp
+
+CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alan/Documentos/pomodoro-clock/build/.qt/rcc/qrc_program_raw_qml_0.cpp > CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.i
+
+CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alan/Documentos/pomodoro-clock/build/.qt/rcc/qrc_program_raw_qml_0.cpp -o CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.s
 
 # Object files for target program
 program_OBJECTS = \
 "CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/program.dir/src/main.cpp.o" \
-"CMakeFiles/program.dir/src/widget.cpp.o"
+"CMakeFiles/program.dir/src/timer.cpp.o" \
+"CMakeFiles/program.dir/program_qmltyperegistrations.cpp.o" \
+"CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.o" \
+"CMakeFiles/program.dir/build/.rcc/qmlcache/program_qmlcache_loader.cpp.o" \
+"CMakeFiles/program.dir/build/.rcc/qmlcache/program_qml/Main_qml.cpp.o" \
+"CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.o"
 
 # External object files for target program
 program_EXTERNAL_OBJECTS =
 
 program: CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o
 program: CMakeFiles/program.dir/src/main.cpp.o
-program: CMakeFiles/program.dir/src/widget.cpp.o
+program: CMakeFiles/program.dir/src/timer.cpp.o
+program: CMakeFiles/program.dir/program_qmltyperegistrations.cpp.o
+program: CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.o
+program: CMakeFiles/program.dir/build/.rcc/qmlcache/program_qmlcache_loader.cpp.o
+program: CMakeFiles/program.dir/build/.rcc/qmlcache/program_qml/Main_qml.cpp.o
+program: CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.o
 program: CMakeFiles/program.dir/build.make
 program: CMakeFiles/program.dir/compiler_depend.ts
-program: /usr/lib/libQt6QuickWidgets.so.6.11.1
 program: /usr/lib/libQt6Widgets.so.6.11.1
+program: /usr/lib/libQt6QuickControls2.so.6.11.1
 program: /usr/lib/libQt6Quick.so.6.11.1
 program: /usr/lib/libQt6OpenGL.so.6.11.1
 program: /usr/lib/libQt6Gui.so.6.11.1
@@ -145,7 +291,7 @@ program: /usr/lib/libQt6Qml.so.6.11.1
 program: /usr/lib/libQt6Network.so.6.11.1
 program: /usr/lib/libQt6Core.so.6.11.1
 program: CMakeFiles/program.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable program"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alan/Documentos/pomodoro-clock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable program"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/program.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,7 +302,17 @@ CMakeFiles/program.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/program.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/program.dir/clean
 
+CMakeFiles/program.dir/depend: .qt/rcc/qrc_program_raw_qml_0.cpp
+CMakeFiles/program.dir/depend: .qt/rcc/qrc_qmake_PomodoroApp.cpp
+CMakeFiles/program.dir/depend: .rcc/qmlcache/program_qml/Main_qml.cpp
+CMakeFiles/program.dir/depend: .rcc/qmlcache/program_qml/Main_qml.cpp.aotstats
+CMakeFiles/program.dir/depend: .rcc/qmlcache/program_qmlcache_loader.cpp
+CMakeFiles/program.dir/depend: PomodoroApp/program.qmltypes
+CMakeFiles/program.dir/depend: meta_types/program_json_file_list.txt
+CMakeFiles/program.dir/depend: meta_types/qt6program_metatypes.json
+CMakeFiles/program.dir/depend: meta_types/qt6program_metatypes.json.gen
 CMakeFiles/program.dir/depend: program_autogen/timestamp
+CMakeFiles/program.dir/depend: program_qmltyperegistrations.cpp
 	cd /home/alan/Documentos/pomodoro-clock/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alan/Documentos/pomodoro-clock /home/alan/Documentos/pomodoro-clock /home/alan/Documentos/pomodoro-clock/build /home/alan/Documentos/pomodoro-clock/build /home/alan/Documentos/pomodoro-clock/build/CMakeFiles/program.dir/DependInfo.cmake "--color=$(COLOR)" program
 .PHONY : CMakeFiles/program.dir/depend
 

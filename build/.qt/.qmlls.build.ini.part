@@ -1,0 +1,3 @@
+[<SLASH>home<SLASH>alan<SLASH>Documentos<SLASH>pomodoro-clock]
+importPaths="/home/alan/Documentos/pomodoro-clock/build:/home/alan/Documentos/pomodoro-clock/build/PomodoroApp:/usr/lib/qt6/qml"
+resourceFiles="/home/alan/Documentos/pomodoro-clock/build/.qt/rcc/qmake_PomodoroApp.qrc:/home/alan/Documentos/pomodoro-clock/build/.qt/rcc/program_raw_qml_0.qrc"

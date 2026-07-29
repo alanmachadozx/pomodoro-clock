@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/PomodoroApp">
+    <file alias="qmldir">/home/alan/Documentos/pomodoro-clock/build/PomodoroApp/qmldir</file>
+  </qresource>
+</RCC>
+

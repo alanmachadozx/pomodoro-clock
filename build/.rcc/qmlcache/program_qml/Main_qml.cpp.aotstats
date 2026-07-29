@@ -1,0 +1,15 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                    ],
+                    "filePath": "/home/alan/Documentos/pomodoro-clock/qml/Main.qml"
+                }
+            ],
+            "moduleId": "PomodoroApp(program)"
+        }
+    ]
+}
