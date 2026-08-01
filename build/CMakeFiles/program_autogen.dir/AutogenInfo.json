@@ -1533,7 +1533,15 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "/home/alan/Documentos/pomodoro-clock/build/program_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "program_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/home/alan/Documentos/pomodoro-clock/include/timer.hpp",
+			"Mu",
+			"6YEA5652QU/moc_timer.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/alan/Documentos/pomodoro-clock/build/program_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/alan/Documentos/pomodoro-clock/build/program_autogen/mocs_compilation.cpp",
@@ -1559,6 +1567,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/home/alan/Documentos/pomodoro-clock/include",
 		"/home/alan/Documentos/pomodoro-clock",
 		"/usr/include/qt6/QtQml",
 		"/usr/include/qt6",

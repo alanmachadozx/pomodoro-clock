@@ -371,9 +371,6 @@ Qt6QuickTemplates2_DIR:PATH=/usr/lib/cmake/Qt6QuickTemplates2
 //The directory containing a CMake configuration file for Qt6QuickTools.
 Qt6QuickTools_DIR:PATH=/usr/lib/cmake/Qt6QuickTools
 
-//The directory containing a CMake configuration file for Qt6QuickWidgets.
-Qt6QuickWidgets_DIR:PATH=/usr/lib/cmake/Qt6QuickWidgets
-
 //The directory containing a CMake configuration file for Qt6Quick.
 Qt6Quick_DIR:PATH=/usr/lib/cmake/Qt6Quick
 
@@ -485,8 +482,6 @@ CMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
-CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.

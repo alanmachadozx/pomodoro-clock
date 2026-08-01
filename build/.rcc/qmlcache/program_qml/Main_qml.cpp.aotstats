@@ -5,6 +5,14 @@
             "moduleFiles": [
                 {
                     "entries": [
+                        {
+                            "codegenResult": 0,
+                            "column": 15,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 17,
+                            "message": ""
+                        }
                     ],
                     "filePath": "/home/alan/Documentos/pomodoro-clock/qml/Main.qml"
                 }

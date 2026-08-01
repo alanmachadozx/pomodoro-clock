@@ -322,4 +322,8 @@ CMakeFiles/program.dir/program_qmltyperegistrations.cpp.o: \
  /usr/include/c++/16/cassert /usr/include/qt6/QtCore/q20iterator.h \
  /usr/include/qt6/QtQml/qqmlregistration.h \
  /usr/include/qt6/QtQmlIntegration/qqmlintegration.h \
- /usr/include/qt6/QtQml/qqmlmoduleregistration.h
+ /usr/include/qt6/QtQml/qqmlmoduleregistration.h \
+ /home/alan/Documentos/pomodoro-clock/include/timer.hpp \
+ /usr/include/qt6/QtCore/qobject.h \
+ /usr/include/qt6/QtQmlIntegration/qqmlintegration.h \
+ /usr/include/qt6/QtCore/qtmetamacros.h

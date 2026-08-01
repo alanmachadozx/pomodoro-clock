@@ -14,7 +14,6 @@ int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
     QQmlApplicationEngine engine;
     engine.loadFromModule("PomodoroApp", "Main");
-    focus();
 
     return app.exec();
 }

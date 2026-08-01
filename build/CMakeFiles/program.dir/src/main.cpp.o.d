@@ -334,6 +334,9 @@ CMakeFiles/program.dir/src/main.cpp.o: \
  /usr/include/qt6/QtCore/qalloc.h \
  /usr/include/qt6/QtGui/qguiapplication_platform.h \
  /home/alan/Documentos/pomodoro-clock/src/../include/timer.hpp \
+ /usr/include/qt6/QtCore/qobject.h \
+ /usr/include/qt6/QtQmlIntegration/qqmlintegration.h \
+ /usr/include/qt6/QtCore/qtmetamacros.h \
  /usr/include/qt6/QtQml/QQmlApplicationEngine \
  /usr/include/qt6/QtQml/qqmlapplicationengine.h \
  /usr/include/qt6/QtQml/qqmlengine.h /usr/include/qt6/QtCore/qurl.h \

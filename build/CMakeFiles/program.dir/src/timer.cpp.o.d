@@ -301,5 +301,7 @@ CMakeFiles/program.dir/src/timer.cpp.o: \
  /usr/include/qt6/QtCore/qshareddata_impl.h \
  /usr/include/qt6/QtCore/qset.h /usr/include/qt6/QtCore/qhash.h \
  /usr/include/qt6/QtCore/qvarlengtharray.h \
- /usr/include/qt6/QtCore/qalloc.h \
- /home/alan/Documentos/pomodoro-clock/src/../include/timer.hpp
+ /usr/include/qt6/QtCore/qalloc.h /usr/include/qt6/QtCore/qtmetamacros.h \
+ /home/alan/Documentos/pomodoro-clock/src/../include/timer.hpp \
+ /usr/include/qt6/QtCore/qobject.h \
+ /usr/include/qt6/QtQmlIntegration/qqmlintegration.h

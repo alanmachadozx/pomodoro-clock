@@ -7,7 +7,14 @@ set(CMAKE_AUTOMOC ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets Quick Qml QuickControls2) 
 
-qt_add_executable(program src/main.cpp src/timer.cpp)
+qt_add_executable(program 
+src/main.cpp 
+src/timer.cpp 
+include/timer.hpp
+)
+
+target_include_directories(program PRIVATE include)
+
 qt_add_qml_module(program
     URI PomodoroApp
     VERSION 1.0

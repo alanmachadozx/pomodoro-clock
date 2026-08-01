@@ -1,21 +1,19 @@
 #include <QTimer>
 #include <QDebug>
+#include <qtmetamacros.h>
 #include "../include/timer.hpp"
 
-void focus() {
+void timerInterface::focus() {
         
     static QTimer timer;
-    static int focusTime = 1500;
-
-    QObject::connect(&timer, &QTimer::timeout, [&](){
+    QObject::connect(&timer, &QTimer::timeout, this, [this](){
         if(focusTime > 0){
-            
-            int minutes = focusTime/60;
-            int seconds = focusTime % 60;
-            qDebug() << minutes << ":" << seconds ;
             focusTime--;
+            emit timeChanged();
         }
     });
-    timer.start(1000);
+        timer.start(1000);
     
 }
+
+
