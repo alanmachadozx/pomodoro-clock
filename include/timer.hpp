@@ -11,20 +11,23 @@ class timerInterface : public QObject{
     Q_PROPERTY(int minutes READ getminutes NOTIFY timeChanged)
     Q_PROPERTY(int seconds READ getseconds NOTIFY timeChanged)
     public:
-        
-    int getminutes() const{
-        return focusTime/60;
-    }
-    int getseconds() const{
-        return focusTime % 60;   
-    }
 
-    //allow start the function on click
-    Q_INVOKABLE void focus();
+        //wait only objects type QOBJECT
+        explicit timerInterface(QObject *parent = nullptr);
+        
+        int getminutes() const{
+            return focusTime/60;
+        }
+        int getseconds() const{
+            return focusTime % 60;   
+        }
+    
+        //allow start the function on click
+        Q_INVOKABLE void focus();
     
     signals:
-    void timeChanged();
+        void timeChanged();
     
     private:
-    int focusTime = 1500;
+        int focusTime = 1500;
 };

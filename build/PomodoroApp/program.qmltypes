@@ -35,7 +35,7 @@ Module {
             lineNumber: 12
             isReadonly: true
         }
-        Signal { name: "timeChanged"; lineNumber: 26 }
-        Method { name: "focus"; lineNumber: 23 }
+        Signal { name: "timeChanged"; lineNumber: 29 }
+        Method { name: "focus"; lineNumber: 26 }
     }
 }

@@ -3,16 +3,21 @@
 #include <qtmetamacros.h>
 #include "../include/timer.hpp"
 
+timerInterface::timerInterface(QObject *parent) : QObject(parent) {}
+
 void timerInterface::focus() {
         
-    static QTimer timer;
-    QObject::connect(&timer, &QTimer::timeout, this, [this](){
+    static QTimer *timer = new QTimer(this);
+    QObject::connect(timer, &QTimer::timeout, this, [this](){
         if(focusTime > 0){
             focusTime--;
             emit timeChanged();
         }
+        else{
+            timer->stop();
+        }
     });
-        timer.start(1000);
+        timer->start(1000);
     
 }
 
