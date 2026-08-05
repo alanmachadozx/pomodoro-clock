@@ -10,13 +10,13 @@ ApplicationWindow {
     color: "#000000"
     
     TimerInterface{
-        id: focusTimer
+        id: timer
     }
 
     Text{
         text: {
-            let m =  focusTimer.minutes < 10 ? "0" + focusTimer.minutes : focusTimer.minutes;
-            let s = focusTimer.seconds < 10 ? "0" + focusTimer.seconds : focusTimer.seconds; 
+            let m =  timer.focusMinutes < 10 ? "0" + timer.focusMinutes : timer.focusMinutes;
+            let s = timer.focusSeconds < 10 ? "0" + timer.focusSeconds : timer.focusSeconds; 
             return m + ":" + s;
         }
         font.pixelSize: 60
@@ -25,7 +25,7 @@ ApplicationWindow {
     }
     Button {
         text: "Iniciar Foco"
-        onClicked: focusTimer.focus()
+        onClicked: timer.focus()
         anchors.horizontalCenter: parent.horizontalCenter
         y: 450
     }
