@@ -18,7 +18,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 24,
+                            "line": 29,
                             "message": ""
                         },
                         {
@@ -26,7 +26,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 28,
+                            "line": 33,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
@@ -34,7 +34,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalCenter",
-                            "line": 29,
+                            "line": 34,
                             "message": "Could not find property \"horizontalCenter\"."
                         }
                     ],

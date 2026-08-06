@@ -36,6 +36,6 @@ class timerInterface : public QObject{
         void timeChanged();
     
     private:
-        int focusTime = 1500;
-        int pauseTime = 300;
+        int focusTime = 10;
+        int pauseTime = 3;
 };

@@ -16,7 +16,12 @@ ApplicationWindow {
     Text{
         text: {
             let m =  timer.focusMinutes < 10 ? "0" + timer.focusMinutes : timer.focusMinutes;
-            let s = timer.focusSeconds < 10 ? "0" + timer.focusSeconds : timer.focusSeconds; 
+            let s = timer.focusSeconds < 10 ? "0" + timer.focusSeconds : timer.focusSeconds;
+
+            if ( timer.focusMinutes == 0 && timer.focusSeconds == 0) {
+                m =  timer.pauseMinutes < 10 ? "0" + timer.pauseMinutes : timer.pauseMinutes;
+                s = timer.pauseSeconds < 10 ? "0" + timer.pauseSeconds : timer.pauseSeconds; 
+            }
             return m + ":" + s;
         }
         font.pixelSize: 60

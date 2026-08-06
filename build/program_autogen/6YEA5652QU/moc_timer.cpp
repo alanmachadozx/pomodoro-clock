@@ -45,8 +45,10 @@ template <> constexpr inline auto timerInterface::qt_create_metaobjectdata<qt_me
         "timeChanged",
         "",
         "focus",
-        "minutes",
-        "seconds"
+        "focusMinutes",
+        "focusSeconds",
+        "pauseMinutes",
+        "pauseSeconds"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -56,10 +58,14 @@ template <> constexpr inline auto timerInterface::qt_create_metaobjectdata<qt_me
         QtMocHelpers::MethodData<void()>(6, 5, QMC::AccessPublic, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
-        // property 'minutes'
+        // property 'focusMinutes'
         QtMocHelpers::PropertyData<int>(7, QMetaType::Int, QMC::DefaultPropertyFlags, 0),
-        // property 'seconds'
+        // property 'focusSeconds'
         QtMocHelpers::PropertyData<int>(8, QMetaType::Int, QMC::DefaultPropertyFlags, 0),
+        // property 'pauseMinutes'
+        QtMocHelpers::PropertyData<int>(9, QMetaType::Int, QMC::DefaultPropertyFlags, 0),
+        // property 'pauseSeconds'
+        QtMocHelpers::PropertyData<int>(10, QMetaType::Int, QMC::DefaultPropertyFlags, 0),
     };
     QtMocHelpers::UintData qt_enums {
     };
@@ -98,8 +104,10 @@ void timerInterface::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
     if (_c == QMetaObject::ReadProperty) {
         void *_v = _a[0];
         switch (_id) {
-        case 0: *reinterpret_cast<int*>(_v) = _t->getminutes(); break;
-        case 1: *reinterpret_cast<int*>(_v) = _t->getseconds(); break;
+        case 0: *reinterpret_cast<int*>(_v) = _t->getFocusMinutes(); break;
+        case 1: *reinterpret_cast<int*>(_v) = _t->getFocusSeconds(); break;
+        case 2: *reinterpret_cast<int*>(_v) = _t->getPauseMinutes(); break;
+        case 3: *reinterpret_cast<int*>(_v) = _t->getPauseSeconds(); break;
         default: break;
         }
     }
@@ -137,7 +145,7 @@ int timerInterface::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty
             || _c == QMetaObject::RegisterPropertyMetaType) {
         qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 4;
     }
     return _id;
 }

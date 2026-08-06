@@ -8,7 +8,7 @@ import QtQuick.tooling 1.2
 Module {
     Component {
         file: "timer.hpp"
-        lineNumber: 6
+        lineNumber: 5
         name: "timerInterface"
         accessSemantics: "reference"
         prototype: "QObject"
@@ -18,24 +18,42 @@ Module {
         ]
         exportMetaObjectRevisions: [256]
         Property {
-            name: "minutes"
+            name: "focusMinutes"
             type: "int"
-            read: "getminutes"
+            read: "getFocusMinutes"
             notify: "timeChanged"
             index: 0
+            lineNumber: 10
+            isReadonly: true
+        }
+        Property {
+            name: "focusSeconds"
+            type: "int"
+            read: "getFocusSeconds"
+            notify: "timeChanged"
+            index: 1
             lineNumber: 11
             isReadonly: true
         }
         Property {
-            name: "seconds"
+            name: "pauseMinutes"
             type: "int"
-            read: "getseconds"
+            read: "getPauseMinutes"
             notify: "timeChanged"
-            index: 1
+            index: 2
             lineNumber: 12
             isReadonly: true
         }
-        Signal { name: "timeChanged"; lineNumber: 29 }
-        Method { name: "focus"; lineNumber: 26 }
+        Property {
+            name: "pauseSeconds"
+            type: "int"
+            read: "getPauseSeconds"
+            notify: "timeChanged"
+            index: 3
+            lineNumber: 13
+            isReadonly: true
+        }
+        Signal { name: "timeChanged"; lineNumber: 36 }
+        Method { name: "focus"; lineNumber: 32 }
     }
 }

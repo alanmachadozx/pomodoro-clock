@@ -16,6 +16,7 @@ void timerInterface::focus(){
         }
         else{
             timer->stop();
+            pause();
         }
     });
         timer->start(1000);
@@ -29,7 +30,9 @@ void timerInterface::pause(){
             emit timeChanged();
         } else{
             timer->stop();
+            focus();
         }
     });
+    timer->start(1000);
 }
 
