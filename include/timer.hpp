@@ -1,6 +1,7 @@
 #include <qobject.h>
 #include <qqmlintegration.h>
 #include <qtmetamacros.h>
+#include <QTimer>
 
 class timerInterface : public QObject{
     Q_OBJECT
@@ -31,11 +32,15 @@ class timerInterface : public QObject{
         //allow start the function on click
         Q_INVOKABLE void focus();
         void pause(); 
-    
+
+        
     signals:
         void timeChanged();
     
     private:
         int focusTime = 10;
         int pauseTime = 3;
+
+        QTimer *timer = nullptr;
+        bool isFocus = true;
 };

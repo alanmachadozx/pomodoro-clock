@@ -284,7 +284,11 @@ CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/16/bits/chrono.h /usr/include/c++/16/ratio \
  /usr/include/c++/16/ctime \
  /usr/include/qt6/QtQmlIntegration/qqmlintegration.h \
- /usr/include/qt6/QtCore/qtmetamacros.h \
+ /usr/include/qt6/QtCore/qtmetamacros.h /usr/include/qt6/QtCore/QTimer \
+ /usr/include/qt6/QtCore/qtimer.h /usr/include/qt6/QtCore/qbasictimer.h \
+ /usr/include/qt6/QtCore/qabstracteventdispatcher.h \
+ /usr/include/qt6/QtCore/qobject.h /usr/include/qt6/QtCore/qeventloop.h \
+ /usr/include/qt6/QtCore/qdeadlinetimer.h \
  /usr/include/qt6/QtCore/qtmochelpers.h \
  /usr/include/qt6/QtCore/qtmocconstants.h \
  /usr/include/qt6/QtCore/q20algorithm.h

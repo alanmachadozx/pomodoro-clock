@@ -1,8 +1,8 @@
 CMakeFiles/program.dir/src/timer.cpp.o: \
  /home/alan/Documentos/pomodoro-clock/src/timer.cpp \
- /usr/include/stdc-predef.h /usr/include/qt6/QtCore/QTimer \
- /usr/include/qt6/QtCore/qtimer.h /usr/include/qt6/QtCore/qglobal.h \
- /usr/include/c++/16/type_traits \
+ /usr/include/stdc-predef.h /usr/include/qt6/QtCore/QDebug \
+ /usr/include/qt6/QtCore/qdebug.h /usr/include/qt6/QtCore/qcompare.h \
+ /usr/include/qt6/QtCore/qglobal.h /usr/include/c++/16/type_traits \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -139,10 +139,6 @@ CMakeFiles/program.dir/src/timer.cpp.o: \
  /usr/include/qt6/QtCore/qtresource.h \
  /usr/include/qt6/QtCore/qttranslation.h \
  /usr/include/qt6/QtCore/qversiontagging.h \
- /usr/include/qt6/QtCore/qbasictimer.h \
- /usr/include/qt6/QtCore/qabstracteventdispatcher.h \
- /usr/include/qt6/QtCore/qobject.h /usr/include/qt6/QtCore/qobjectdefs.h \
- /usr/include/qt6/QtCore/qnamespace.h /usr/include/qt6/QtCore/qcompare.h \
  /usr/include/qt6/QtCore/qstdlibdetection.h \
  /usr/include/qt6/QtCore/qcomparehelpers.h /usr/include/c++/16/functional \
  /usr/include/c++/16/bits/refwrap.h \
@@ -167,21 +163,34 @@ CMakeFiles/program.dir/src/timer.cpp.o: \
  /usr/include/c++/16/bits/stl_vector.h \
  /usr/include/c++/16/bits/stl_bvector.h \
  /usr/include/c++/16/bits/vector.tcc /usr/include/c++/16/array \
- /usr/include/c++/16/compare /usr/include/qt6/QtCore/qtmetamacros.h \
- /usr/include/qt6/QtCore/qobjectdefs_impl.h \
- /usr/include/qt6/QtCore/qfunctionaltools_impl.h \
- /usr/include/c++/16/memory \
- /usr/include/c++/16/bits/stl_raw_storage_iter.h \
- /usr/include/c++/16/bits/align.h /usr/include/c++/16/bits/unique_ptr.h \
- /usr/include/c++/16/bits/shared_ptr.h /usr/include/c++/16/iosfwd \
- /usr/include/c++/16/bits/stringfwd.h /usr/include/c++/16/bits/postypes.h \
- /usr/include/c++/16/cwchar /usr/include/wchar.h \
+ /usr/include/c++/16/compare /usr/include/qt6/QtCore/qfloat16.h \
+ /usr/include/qt6/QtCore/qhashfunctions.h \
+ /usr/include/qt6/QtCore/qstring.h /usr/include/qt6/QtCore/qchar.h \
+ /usr/include/qt6/QtCore/qstringview.h \
+ /usr/include/qt6/QtCore/qbytearray.h /usr/include/qt6/QtCore/qrefcount.h \
+ /usr/include/qt6/QtCore/qnamespace.h \
+ /usr/include/qt6/QtCore/qtmetamacros.h \
+ /usr/include/qt6/QtCore/qarraydata.h /usr/include/qt6/QtCore/qpair.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /usr/include/qt6/QtCore/qarraydatapointer.h \
+ /usr/include/qt6/QtCore/qarraydataops.h \
+ /usr/include/qt6/QtCore/qcontainertools_impl.h \
+ /usr/include/qt6/QtCore/qxptype_traits.h \
+ /usr/include/qt6/QtCore/q23type_traits.h /usr/include/c++/16/cstring \
+ /usr/include/c++/16/iterator /usr/include/c++/16/bits/stream_iterator.h \
+ /usr/include/c++/16/iosfwd /usr/include/c++/16/bits/stringfwd.h \
+ /usr/include/c++/16/bits/postypes.h /usr/include/c++/16/cwchar \
+ /usr/include/wchar.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
  /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h \
- /usr/include/c++/16/bits/shared_ptr_base.h \
- /usr/include/c++/16/bits/allocated_ptr.h \
+ /usr/include/c++/16/bits/streambuf_iterator.h \
+ /usr/include/c++/16/streambuf /usr/include/c++/16/bits/localefwd.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++locale.h \
+ /usr/include/c++/16/clocale /usr/include/locale.h \
+ /usr/include/bits/locale.h /usr/include/c++/16/cctype \
+ /usr/include/ctype.h /usr/include/c++/16/bits/ios_base.h \
  /usr/include/c++/16/ext/atomicity.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/gthr.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/gthr-default.h \
@@ -199,27 +208,7 @@ CMakeFiles/program.dir/src/timer.cpp.o: \
  /usr/include/bits/types/struct___jmp_buf_tag.h \
  /usr/include/bits/pthread_stack_min-dynamic.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/atomic_word.h \
- /usr/include/sys/single_threaded.h /usr/include/c++/16/ext/concurrence.h \
- /usr/include/c++/16/bits/shared_ptr_atomic.h \
- /usr/include/c++/16/backward/auto_ptr.h \
- /usr/include/c++/16/pstl/glue_memory_defs.h \
- /usr/include/qt6/QtCore/qstring.h /usr/include/qt6/QtCore/qchar.h \
- /usr/include/qt6/QtCore/qstringview.h \
- /usr/include/qt6/QtCore/qbytearray.h /usr/include/qt6/QtCore/qrefcount.h \
- /usr/include/qt6/QtCore/qarraydata.h /usr/include/qt6/QtCore/qpair.h \
- /usr/include/string.h /usr/include/strings.h \
- /usr/include/qt6/QtCore/qarraydatapointer.h \
- /usr/include/qt6/QtCore/qarraydataops.h \
- /usr/include/qt6/QtCore/qcontainertools_impl.h \
- /usr/include/qt6/QtCore/qxptype_traits.h \
- /usr/include/qt6/QtCore/q23type_traits.h /usr/include/c++/16/cstring \
- /usr/include/c++/16/iterator /usr/include/c++/16/bits/stream_iterator.h \
- /usr/include/c++/16/bits/streambuf_iterator.h \
- /usr/include/c++/16/streambuf /usr/include/c++/16/bits/localefwd.h \
- /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++locale.h \
- /usr/include/c++/16/clocale /usr/include/locale.h \
- /usr/include/bits/locale.h /usr/include/c++/16/cctype \
- /usr/include/ctype.h /usr/include/c++/16/bits/ios_base.h \
+ /usr/include/sys/single_threaded.h \
  /usr/include/c++/16/bits/locale_classes.h /usr/include/c++/16/string \
  /usr/include/c++/16/bits/char_traits.h \
  /usr/include/c++/16/bits/ostream_insert.h \
@@ -242,7 +231,16 @@ CMakeFiles/program.dir/src/timer.cpp.o: \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/error_constants.h \
  /usr/include/c++/16/stdexcept \
  /usr/include/c++/16/bits/stdexcept_except.h \
- /usr/include/c++/16/bits/streambuf.tcc \
+ /usr/include/c++/16/bits/streambuf.tcc /usr/include/c++/16/memory \
+ /usr/include/c++/16/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/16/bits/align.h /usr/include/c++/16/bits/unique_ptr.h \
+ /usr/include/c++/16/bits/shared_ptr.h \
+ /usr/include/c++/16/bits/shared_ptr_base.h \
+ /usr/include/c++/16/bits/allocated_ptr.h \
+ /usr/include/c++/16/ext/concurrence.h \
+ /usr/include/c++/16/bits/shared_ptr_atomic.h \
+ /usr/include/c++/16/backward/auto_ptr.h \
+ /usr/include/c++/16/pstl/glue_memory_defs.h \
  /usr/include/qt6/QtCore/q20functional.h \
  /usr/include/qt6/QtCore/q20memory.h /usr/include/qt6/QtCore/q17memory.h \
  /usr/include/qt6/QtCore/qbytearrayalgorithms.h \
@@ -256,35 +254,12 @@ CMakeFiles/program.dir/src/timer.cpp.o: \
  /usr/include/qt6/QtCore/qstringbuilder.h \
  /usr/include/qt6/QtCore/qstringconverter.h \
  /usr/include/qt6/QtCore/qstringconverter_base.h \
- /usr/include/qt6/QtCore/qlist.h /usr/include/qt6/QtCore/qhashfunctions.h \
  /usr/include/c++/16/numeric /usr/include/c++/16/bits/stl_numeric.h \
  /usr/include/c++/16/pstl/glue_numeric_defs.h \
- /usr/include/qt6/QtCore/qiterator.h \
- /usr/include/qt6/QtCore/qbytearraylist.h \
- /usr/include/qt6/QtCore/qstringlist.h \
- /usr/include/qt6/QtCore/qalgorithms.h /usr/include/qt6/QtCore/q20bit.h \
- /usr/include/qt6/QtCore/qstringmatcher.h \
- /usr/include/qt6/QtCore/qscopedpointer.h \
- /usr/include/qt6/QtCore/qmetatype.h \
- /usr/include/qt6/QtCore/qdatastream.h \
+ /usr/include/qt6/QtCore/qmath.h /usr/include/qt6/QtCore/qalgorithms.h \
+ /usr/include/qt6/QtCore/q20bit.h /usr/include/qt6/QtCore/qtformat_impl.h \
+ /usr/include/qt6/QtCore/qtextstream.h \
  /usr/include/qt6/QtCore/qiodevicebase.h \
- /usr/include/qt6/QtCore/qfloat16.h /usr/include/qt6/QtCore/qmath.h \
- /usr/include/qt6/QtCore/qtformat_impl.h \
- /usr/include/qt6/QtCore/qiterable.h \
- /usr/include/qt6/QtCore/qtaggedpointer.h \
- /usr/include/qt6/QtCore/qmetacontainer.h \
- /usr/include/qt6/QtCore/qcontainerinfo.h \
- /usr/include/qt6/QtCore/qscopeguard.h /usr/include/c++/16/list \
- /usr/include/c++/16/bits/stl_list.h /usr/include/c++/16/bits/list.tcc \
- /usr/include/c++/16/map /usr/include/c++/16/bits/stl_tree.h \
- /usr/include/c++/16/bits/stl_map.h \
- /usr/include/c++/16/bits/stl_multimap.h \
- /usr/include/qt6/QtCore/qobject_impl.h \
- /usr/include/qt6/QtCore/qbindingstorage.h /usr/include/c++/16/chrono \
- /usr/include/c++/16/bits/chrono.h /usr/include/c++/16/ratio \
- /usr/include/c++/16/ctime /usr/include/qt6/QtCore/qeventloop.h \
- /usr/include/qt6/QtCore/qdeadlinetimer.h /usr/include/qt6/QtCore/QDebug \
- /usr/include/qt6/QtCore/qdebug.h /usr/include/qt6/QtCore/qtextstream.h \
  /usr/include/qt6/QtCore/qcontiguouscache.h /usr/include/c++/16/climits \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/limits.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/syslimits.h \
@@ -293,15 +268,43 @@ CMakeFiles/program.dir/src/timer.cpp.o: \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
  /usr/include/bits/uio_lim.h /usr/include/qt6/QtCore/qsharedpointer.h \
  /usr/include/qt6/QtCore/qshareddata.h \
- /usr/include/qt6/QtCore/qsharedpointer_impl.h /usr/include/c++/16/set \
+ /usr/include/qt6/QtCore/qsharedpointer_impl.h \
+ /usr/include/qt6/QtCore/qmetatype.h \
+ /usr/include/qt6/QtCore/qdatastream.h \
+ /usr/include/qt6/QtCore/qobjectdefs.h \
+ /usr/include/qt6/QtCore/qobjectdefs_impl.h \
+ /usr/include/qt6/QtCore/qfunctionaltools_impl.h \
+ /usr/include/qt6/QtCore/qscopedpointer.h \
+ /usr/include/qt6/QtCore/qiterable.h \
+ /usr/include/qt6/QtCore/qtaggedpointer.h \
+ /usr/include/qt6/QtCore/qmetacontainer.h \
+ /usr/include/qt6/QtCore/qcontainerinfo.h \
+ /usr/include/qt6/QtCore/qscopeguard.h /usr/include/c++/16/list \
+ /usr/include/c++/16/bits/stl_list.h /usr/include/c++/16/bits/list.tcc \
+ /usr/include/c++/16/map /usr/include/c++/16/bits/stl_tree.h \
+ /usr/include/c++/16/bits/stl_map.h \
+ /usr/include/c++/16/bits/stl_multimap.h /usr/include/c++/16/chrono \
+ /usr/include/c++/16/bits/chrono.h /usr/include/c++/16/ratio \
+ /usr/include/c++/16/ctime /usr/include/c++/16/set \
  /usr/include/c++/16/bits/stl_set.h \
  /usr/include/c++/16/bits/stl_multiset.h \
  /usr/include/c++/16/unordered_set \
- /usr/include/c++/16/bits/unordered_set.h /usr/include/qt6/QtCore/qmap.h \
+ /usr/include/c++/16/bits/unordered_set.h /usr/include/qt6/QtCore/qlist.h \
+ /usr/include/qt6/QtCore/qiterator.h \
+ /usr/include/qt6/QtCore/qbytearraylist.h \
+ /usr/include/qt6/QtCore/qstringlist.h \
+ /usr/include/qt6/QtCore/qstringmatcher.h /usr/include/qt6/QtCore/qmap.h \
  /usr/include/qt6/QtCore/qshareddata_impl.h \
  /usr/include/qt6/QtCore/qset.h /usr/include/qt6/QtCore/qhash.h \
  /usr/include/qt6/QtCore/qvarlengtharray.h \
  /usr/include/qt6/QtCore/qalloc.h /usr/include/qt6/QtCore/qobject.h \
+ /usr/include/qt6/QtCore/qobject_impl.h \
+ /usr/include/qt6/QtCore/qbindingstorage.h \
  /usr/include/qt6/QtCore/qtmetamacros.h \
  /home/alan/Documentos/pomodoro-clock/src/../include/timer.hpp \
- /usr/include/qt6/QtQmlIntegration/qqmlintegration.h
+ /usr/include/qt6/QtQmlIntegration/qqmlintegration.h \
+ /usr/include/qt6/QtCore/QTimer /usr/include/qt6/QtCore/qtimer.h \
+ /usr/include/qt6/QtCore/qbasictimer.h \
+ /usr/include/qt6/QtCore/qabstracteventdispatcher.h \
+ /usr/include/qt6/QtCore/qobject.h /usr/include/qt6/QtCore/qeventloop.h \
+ /usr/include/qt6/QtCore/qdeadlinetimer.h

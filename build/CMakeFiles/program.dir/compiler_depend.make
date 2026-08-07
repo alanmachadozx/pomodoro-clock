@@ -267,12 +267,14 @@ program_autogen/timestamp: /home/alan/Documentos/pomodoro-clock/CMakeLists.txt \
   /usr/include/linux/types.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
+  /usr/include/qt6/QtCore/QTimer \
   /usr/include/qt6/QtCore/q17memory.h \
   /usr/include/qt6/QtCore/q20bit.h \
   /usr/include/qt6/QtCore/q20functional.h \
   /usr/include/qt6/QtCore/q20memory.h \
   /usr/include/qt6/QtCore/q20type_traits.h \
   /usr/include/qt6/QtCore/q23type_traits.h \
+  /usr/include/qt6/QtCore/qabstracteventdispatcher.h \
   /usr/include/qt6/QtCore/qalgorithms.h \
   /usr/include/qt6/QtCore/qanystringview.h \
   /usr/include/qt6/QtCore/qarraydata.h \
@@ -282,6 +284,7 @@ program_autogen/timestamp: /home/alan/Documentos/pomodoro-clock/CMakeLists.txt \
   /usr/include/qt6/QtCore/qatomic.h \
   /usr/include/qt6/QtCore/qatomic_cxx11.h \
   /usr/include/qt6/QtCore/qbasicatomic.h \
+  /usr/include/qt6/QtCore/qbasictimer.h \
   /usr/include/qt6/QtCore/qbindingstorage.h \
   /usr/include/qt6/QtCore/qbytearray.h \
   /usr/include/qt6/QtCore/qbytearrayalgorithms.h \
@@ -299,6 +302,8 @@ program_autogen/timestamp: /home/alan/Documentos/pomodoro-clock/CMakeLists.txt \
   /usr/include/qt6/QtCore/qcontainertools_impl.h \
   /usr/include/qt6/QtCore/qdarwinhelpers.h \
   /usr/include/qt6/QtCore/qdatastream.h \
+  /usr/include/qt6/QtCore/qdeadlinetimer.h \
+  /usr/include/qt6/QtCore/qeventloop.h \
   /usr/include/qt6/QtCore/qexceptionhandling.h \
   /usr/include/qt6/QtCore/qflags.h \
   /usr/include/qt6/QtCore/qfloat16.h \
@@ -357,6 +362,7 @@ program_autogen/timestamp: /home/alan/Documentos/pomodoro-clock/CMakeLists.txt \
   /usr/include/qt6/QtCore/qtdeprecationmarkers.h \
   /usr/include/qt6/QtCore/qtenvironmentvariables.h \
   /usr/include/qt6/QtCore/qtformat_impl.h \
+  /usr/include/qt6/QtCore/qtimer.h \
   /usr/include/qt6/QtCore/qtmetamacros.h \
   /usr/include/qt6/QtCore/qtnoop.h \
   /usr/include/qt6/QtCore/qtpreprocessorsupport.h \
@@ -2658,6 +2664,7 @@ CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o: program_autogen/m
   /usr/include/locale.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
+  /usr/include/qt6/QtCore/QTimer \
   /usr/include/qt6/QtCore/q17memory.h \
   /usr/include/qt6/QtCore/q20algorithm.h \
   /usr/include/qt6/QtCore/q20bit.h \
@@ -2665,6 +2672,7 @@ CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o: program_autogen/m
   /usr/include/qt6/QtCore/q20memory.h \
   /usr/include/qt6/QtCore/q20type_traits.h \
   /usr/include/qt6/QtCore/q23type_traits.h \
+  /usr/include/qt6/QtCore/qabstracteventdispatcher.h \
   /usr/include/qt6/QtCore/qalgorithms.h \
   /usr/include/qt6/QtCore/qanystringview.h \
   /usr/include/qt6/QtCore/qarraydata.h \
@@ -2674,6 +2682,7 @@ CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o: program_autogen/m
   /usr/include/qt6/QtCore/qatomic.h \
   /usr/include/qt6/QtCore/qatomic_cxx11.h \
   /usr/include/qt6/QtCore/qbasicatomic.h \
+  /usr/include/qt6/QtCore/qbasictimer.h \
   /usr/include/qt6/QtCore/qbindingstorage.h \
   /usr/include/qt6/QtCore/qbytearray.h \
   /usr/include/qt6/QtCore/qbytearrayalgorithms.h \
@@ -2691,6 +2700,8 @@ CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o: program_autogen/m
   /usr/include/qt6/QtCore/qcontainertools_impl.h \
   /usr/include/qt6/QtCore/qdarwinhelpers.h \
   /usr/include/qt6/QtCore/qdatastream.h \
+  /usr/include/qt6/QtCore/qdeadlinetimer.h \
+  /usr/include/qt6/QtCore/qeventloop.h \
   /usr/include/qt6/QtCore/qexceptionhandling.h \
   /usr/include/qt6/QtCore/qflags.h \
   /usr/include/qt6/QtCore/qfloat16.h \
@@ -2749,6 +2760,7 @@ CMakeFiles/program.dir/program_autogen/mocs_compilation.cpp.o: program_autogen/m
   /usr/include/qt6/QtCore/qtdeprecationmarkers.h \
   /usr/include/qt6/QtCore/qtenvironmentvariables.h \
   /usr/include/qt6/QtCore/qtformat_impl.h \
+  /usr/include/qt6/QtCore/qtimer.h \
   /usr/include/qt6/QtCore/qtmetamacros.h \
   /usr/include/qt6/QtCore/qtmocconstants.h \
   /usr/include/qt6/QtCore/qtmochelpers.h \
@@ -3071,6 +3083,7 @@ CMakeFiles/program.dir/program_qmltyperegistrations.cpp.o: program_qmltyperegist
   /usr/include/locale.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
+  /usr/include/qt6/QtCore/QTimer \
   /usr/include/qt6/QtCore/q17memory.h \
   /usr/include/qt6/QtCore/q20bit.h \
   /usr/include/qt6/QtCore/q20functional.h \
@@ -3080,6 +3093,7 @@ CMakeFiles/program.dir/program_qmltyperegistrations.cpp.o: program_qmltyperegist
   /usr/include/qt6/QtCore/q20utility.h \
   /usr/include/qt6/QtCore/q23type_traits.h \
   /usr/include/qt6/QtCore/q23utility.h \
+  /usr/include/qt6/QtCore/qabstracteventdispatcher.h \
   /usr/include/qt6/QtCore/qalgorithms.h \
   /usr/include/qt6/QtCore/qalloc.h \
   /usr/include/qt6/QtCore/qanystringview.h \
@@ -3090,6 +3104,7 @@ CMakeFiles/program.dir/program_qmltyperegistrations.cpp.o: program_qmltyperegist
   /usr/include/qt6/QtCore/qatomic.h \
   /usr/include/qt6/QtCore/qatomic_cxx11.h \
   /usr/include/qt6/QtCore/qbasicatomic.h \
+  /usr/include/qt6/QtCore/qbasictimer.h \
   /usr/include/qt6/QtCore/qbindingstorage.h \
   /usr/include/qt6/QtCore/qbytearray.h \
   /usr/include/qt6/QtCore/qbytearrayalgorithms.h \
@@ -3110,7 +3125,9 @@ CMakeFiles/program.dir/program_qmltyperegistrations.cpp.o: program_qmltyperegist
   /usr/include/qt6/QtCore/qdarwinhelpers.h \
   /usr/include/qt6/QtCore/qdatastream.h \
   /usr/include/qt6/QtCore/qdatetime.h \
+  /usr/include/qt6/QtCore/qdeadlinetimer.h \
   /usr/include/qt6/QtCore/qdebug.h \
+  /usr/include/qt6/QtCore/qeventloop.h \
   /usr/include/qt6/QtCore/qexceptionhandling.h \
   /usr/include/qt6/QtCore/qflags.h \
   /usr/include/qt6/QtCore/qfloat16.h \
@@ -3183,6 +3200,7 @@ CMakeFiles/program.dir/program_qmltyperegistrations.cpp.o: program_qmltyperegist
   /usr/include/qt6/QtCore/qtenvironmentvariables.h \
   /usr/include/qt6/QtCore/qtextstream.h \
   /usr/include/qt6/QtCore/qtformat_impl.h \
+  /usr/include/qt6/QtCore/qtimer.h \
   /usr/include/qt6/QtCore/qtmetamacros.h \
   /usr/include/qt6/QtCore/qtnoop.h \
   /usr/include/qt6/QtCore/qtpreprocessorsupport.h \
@@ -3527,6 +3545,7 @@ CMakeFiles/program.dir/src/main.cpp.o: /home/alan/Documentos/pomodoro-clock/src/
   /usr/include/locale.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
+  /usr/include/qt6/QtCore/QTimer \
   /usr/include/qt6/QtCore/QUrl \
   /usr/include/qt6/QtCore/q17memory.h \
   /usr/include/qt6/QtCore/q20bit.h \
@@ -3655,6 +3674,7 @@ CMakeFiles/program.dir/src/main.cpp.o: /home/alan/Documentos/pomodoro-clock/src/
   /usr/include/qt6/QtCore/qtenvironmentvariables.h \
   /usr/include/qt6/QtCore/qtextstream.h \
   /usr/include/qt6/QtCore/qtformat_impl.h \
+  /usr/include/qt6/QtCore/qtimer.h \
   /usr/include/qt6/QtCore/qtimezone.h \
   /usr/include/qt6/QtCore/qtmetamacros.h \
   /usr/include/qt6/QtCore/qtnoop.h \
@@ -4447,8 +4467,6 @@ CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.o:
 
 /usr/lib/libc.so:
 
-/usr/include/qt6/QtCore/QTimer:
-
 /usr/include/qt6/QtCore/QDebug:
 
 /usr/include/qt6/QtWidgets/qtwidgetsglobal.h:
@@ -4511,17 +4529,9 @@ CMakeFiles/program.dir/build/.qt/rcc/qrc_qmake_PomodoroApp.cpp.o:
 
 /usr/include/qt6/QtCore/qline.h:
 
-/usr/include/qt6/QtCore/qeventloop.h:
-
-/usr/include/qt6/QtCore/qdeadlinetimer.h:
-
 /usr/include/qt6/QtCore/qcoreapplication_platform.h:
 
 /usr/include/qt6/QtCore/qcoreapplication.h:
-
-/usr/include/qt6/QtCore/qbasictimer.h:
-
-/usr/include/qt6/QtCore/qabstracteventdispatcher.h:
 
 /home/alan/Documentos/pomodoro-clock/include/main.hpp:
 
@@ -5111,21 +5121,15 @@ program_qmltyperegistrations.cpp:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkblayoutspluginTargets-relwithdebinfo.cmake:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkblayoutspluginConfig.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake:
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkblayoutspluginAdditionalTargetInfo.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake:
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbhunspellpluginTargetsPrecheck.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargetsPrecheck.cmake:
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbhunspellpluginTargets-relwithdebinfo.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake:
-
-/usr/include/qt6/QtGui/qcolor.h:
-
-/usr/include/qt6/QtCore/qlogging.h:
-
-/usr/include/bits/stdint-uintn.h:
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbhunspellpluginConfig.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake:
 
@@ -5190,8 +5194,6 @@ program_qmltyperegistrations.cpp:
 /usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6DrmEglServerBufferPluginTargetsPrecheck.cmake:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbhunspellpluginTargetsPrecheck.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtwebenginequickdelegatespluginTargets-relwithdebinfo.cmake:
 
@@ -5324,10 +5326,6 @@ program_qmltyperegistrations.cpp:
 /usr/lib/cmake/Qt6/QtPublicCMakeEarlyPolicyHelpers.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargetsPrecheck.cmake:
-
-/usr/include/qt6/QtCore/qtimer.h:
-
-/usr/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake:
 
 /usr/include/strings.h:
 
@@ -5511,6 +5509,14 @@ program_qmltyperegistrations.cpp:
 
 /usr/include/qt6/QtCore/qmalloc.h:
 
+/usr/include/qt6/QtGui/qcolor.h:
+
+/usr/include/qt6/QtCore/qlogging.h:
+
+/usr/include/bits/stdint-uintn.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake:
+
 /usr/include/qt6/QtCore/qiterator.h:
 
 /usr/include/qt6/QtCore/qminmax.h:
@@ -5535,13 +5541,17 @@ program_qmltyperegistrations.cpp:
 
 /usr/include/c++/16/cstdlib:
 
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkblayoutspluginAdditionalTargetInfo.cmake:
-
 /usr/include/qt6/QtCore/qfloat16.h:
 
 /usr/include/qt6/QtCore/qexceptionhandling.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake:
+
+/usr/include/qt6/QtCore/qdeadlinetimer.h:
+
+/usr/include/qt6/QtCore/qshareddata_impl.h:
+
+/usr/include/c++/16/utility:
 
 /usr/include/qt6/QtCore/qurl.h:
 
@@ -5651,6 +5661,8 @@ program_qmltyperegistrations.cpp:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbhangulpluginTargetsPrecheck.cmake:
 
+/usr/include/qt6/QtCore/qabstracteventdispatcher.h:
+
 /usr/lib/cmake/Qt6Gui/Qt6QTgaPluginTargetsPrecheck.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QWaylandEglClientBufferPluginTargets.cmake:
@@ -5658,6 +5670,8 @@ program_qmltyperegistrations.cpp:
 /usr/lib/cmake/Qt6Qml/Qt6QQuick3DProfilerAdapterFactoryPluginTargetsPrecheck.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagepluginAdditionalTargetInfo.cmake:
+
+/usr/include/qt6/QtCore/qbasictimer.h:
 
 /usr/include/qt6/QtCore/q20bit.h:
 
@@ -5867,10 +5881,6 @@ program_qmltyperegistrations.cpp:
 
 /usr/include/bits/types/timer_t.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake:
-
-/usr/include/c++/16/tr1/riemann_zeta.tcc:
-
 /usr/lib/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptAdditionalTargetInfo.cmake:
 
 /usr/include/c++/16/bits/ostream_insert.h:
@@ -5884,8 +5894,6 @@ program_qmltyperegistrations.cpp:
 /usr/include/bits/types/struct_timespec.h:
 
 /usr/include/qt6/QtCore/qcompilerdetection.h:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbhunspellpluginConfig.cmake:
 
 /usr/include/qt6/QtCore/q20type_traits.h:
 
@@ -6011,6 +6019,10 @@ CMakeFiles/4.4.0/CMakeCXXCompiler.cmake:
 
 /usr/include/bits/byteswap.h:
 
+/usr/include/qt6/QtCore/qeventloop.h:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlxmllistmodelpluginAdditionalTargetInfo.cmake:
+
 /usr/include/c++/16/bits/requires_hosted.h:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginAdditionalTargetInfo.cmake:
@@ -6104,10 +6116,6 @@ CMakeFiles/4.4.0/CMakeCCompiler.cmake:
 /usr/include/bits/types/__fpos64_t.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake:
 
 /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake:
 
@@ -6283,6 +6291,8 @@ CMakeFiles/4.4.0/CMakeCCompiler.cmake:
 
 /usr/include/c++/16/bits/shared_ptr_base.h:
 
+/usr/include/qt6/QtCore/QTimer:
+
 /usr/include/c++/16/bits/algorithmfwd.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake:
@@ -6411,10 +6421,6 @@ CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.o:
 
 /usr/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake:
 
-/usr/include/qt6/QtCore/qshareddata_impl.h:
-
-/usr/include/c++/16/utility:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.so:
 
 /usr/include/c++/16/concepts:
@@ -6434,8 +6440,6 @@ CMakeFiles/program.dir/build/.qt/rcc/qrc_program_raw_qml_0.cpp.o:
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginTargets.cmake:
 
 /usr/include/linux/sched/types.h:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkblayoutspluginConfig.cmake:
 
 /usr/include/c++/16/tr1/hypergeometric.tcc:
 
@@ -6633,6 +6637,10 @@ program_autogen/moc_predefs.h:
 
 /usr/include/c++/16/version:
 
+/usr/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake:
+
+/usr/include/qt6/QtCore/qtimer.h:
+
 /usr/lib/cmake/Qt6Network/Qt6QConnManNetworkInformationPluginConfig.cmake:
 
 /usr/include/bits/cpu-set.h:
@@ -6658,6 +6666,22 @@ program_autogen/moc_predefs.h:
 /usr/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake:
 
 /usr/include/errno.h:
+
+/usr/include/c++/16/tr1/riemann_zeta.tcc:
+
+/usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargetsPrecheck.cmake:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
+
+/usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake:
 
@@ -6916,8 +6940,6 @@ CMakeFiles/program.dir/src/timer.cpp.o:
 /usr/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbhunspellpluginTargets-relwithdebinfo.cmake:
 
 /usr/include/qt6/QtQml/qtqml-config.h:
 
@@ -7480,8 +7502,6 @@ CMakeFiles/program.dir/src/timer.cpp.o:
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsTargets.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsTargetsPrecheck.cmake:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlxmllistmodelpluginAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlxmllistmodelpluginTargets.cmake:
 

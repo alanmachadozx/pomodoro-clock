@@ -34,4 +34,10 @@ ApplicationWindow {
         anchors.horizontalCenter: parent.horizontalCenter
         y: 450
     }
+    Rectangle{
+        width: 40
+        height: 50
+        border.color: "#D50048"
+        radius: 10
+    }
 }

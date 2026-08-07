@@ -326,4 +326,8 @@ CMakeFiles/program.dir/program_qmltyperegistrations.cpp.o: \
  /home/alan/Documentos/pomodoro-clock/include/timer.hpp \
  /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtQmlIntegration/qqmlintegration.h \
- /usr/include/qt6/QtCore/qtmetamacros.h
+ /usr/include/qt6/QtCore/qtmetamacros.h /usr/include/qt6/QtCore/QTimer \
+ /usr/include/qt6/QtCore/qtimer.h /usr/include/qt6/QtCore/qbasictimer.h \
+ /usr/include/qt6/QtCore/qabstracteventdispatcher.h \
+ /usr/include/qt6/QtCore/qeventloop.h \
+ /usr/include/qt6/QtCore/qdeadlinetimer.h

@@ -8,7 +8,7 @@ import QtQuick.tooling 1.2
 Module {
     Component {
         file: "timer.hpp"
-        lineNumber: 5
+        lineNumber: 6
         name: "timerInterface"
         accessSemantics: "reference"
         prototype: "QObject"
@@ -23,7 +23,7 @@ Module {
             read: "getFocusMinutes"
             notify: "timeChanged"
             index: 0
-            lineNumber: 10
+            lineNumber: 11
             isReadonly: true
         }
         Property {
@@ -32,7 +32,7 @@ Module {
             read: "getFocusSeconds"
             notify: "timeChanged"
             index: 1
-            lineNumber: 11
+            lineNumber: 12
             isReadonly: true
         }
         Property {
@@ -41,7 +41,7 @@ Module {
             read: "getPauseMinutes"
             notify: "timeChanged"
             index: 2
-            lineNumber: 12
+            lineNumber: 13
             isReadonly: true
         }
         Property {
@@ -50,10 +50,10 @@ Module {
             read: "getPauseSeconds"
             notify: "timeChanged"
             index: 3
-            lineNumber: 13
+            lineNumber: 14
             isReadonly: true
         }
-        Signal { name: "timeChanged"; lineNumber: 36 }
-        Method { name: "focus"; lineNumber: 32 }
+        Signal { name: "timeChanged"; lineNumber: 38 }
+        Method { name: "focus"; lineNumber: 33 }
     }
 }
